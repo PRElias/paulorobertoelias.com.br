@@ -14,6 +14,10 @@ O site passou a contemplar um blog, após uma fase bem legal onde desenvolvi e g
 
 Porém eu comecei a me interessar por reduzir custos, já que eu pagava dois domínios diferentes e mais um caro* servidor americano pra hospedar o Wordress e mais sua base de dados. Foi então que comecei a pesquisar o Github Pages e as tecnologias de sites e blos estáticos. Em um primeiro momento, fiquei encantado com o framework [Hexo](https://hexo.io/pt-br/), mas ainda sentia que meu workflow ao publicar textos estava um pouco chato e foi então que me rendi ao framework mais famoso de todos nesse quesito, o [Jekyll](https://jekyllrb.com/). Além de possuir um aprendizando muito rápido, a profusão de trabalhos prontos e livres para uso é gigantesca e foi assim que eu escolhi um tema (link no rodapé do site) e comecei a construir a versão 2019 do meu site integrado ao blog.
 
+Outro requisito que eu tinha era tornar o site um [PWA](https://pt.wikipedia.org/wiki/Progressive_Web_App). Claro que isso é mais um treino ou uma prova de conceito pra mim, mas gosto de vê-lo como um aplicativo instalado no celular e, caso você goste de acompanhar o blog, pode fazê-lo desta forma, ao clicar em "Adicionar à tela inicial".
+
+Além do blog e desse longo relato auto-biográfico, o site também consta com todos meus contatos e redes sociais, além das versões atualizadas do meu curriculum em portugês e inglês, além é claro, de alguns detalhes do meu portfolio, que eu realmente o convido a conhecer.
+
 ## Minhas paixões
 
 # Quem é Paulo Roberto Elias em resumo
