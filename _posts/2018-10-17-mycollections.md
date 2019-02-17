@@ -1,7 +1,7 @@
 ---
 layout: post
 title: MyCollections
-image: ./img/mycollections.gif
+image: /img/mycollections.gif
 ---
 
 Hoje minha intenção não é discorrer sobre a importância e o ganho em ter projetos pessoais de desenvolvimento (programação mesmo). Até porque acredito que já falei bastante disso em meus outros posts sobre meus demais projetos e não há muito mais o que se falar disso. Portanto, minha intenção é mesmo apenas apresentar este, que chamei até aqui de “MyCollections”.
