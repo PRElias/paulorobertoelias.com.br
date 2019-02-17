@@ -100,3 +100,8 @@ whatsapp:
   name: "Whatsapp"
   baseURL: "https://api.whatsapp.com/send?phone="
   icon: "fa-whatsapp"
+
+medium:
+  name: "Medium"
+  baseURL: "https://medium.com/"
+  icon: "fa-medium"
