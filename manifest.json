@@ -6,10 +6,10 @@
     "display": "fullscreen",
     "start_url": "https://prelias.github.io/paulorobertoelias.com.br/",
     "short_name": "Paulo Elias",
-    "theme_color": "transparent",
+    "theme_color": "#FFFFFF",
     "description": "Site pessoal, hub de contatos e blog",
     "orientation": "portrait",
-    "background_color": "transparent",
+    "background_color": "#FFFFFF",
     "related_applications": [],
     "prefer_related_applications": false,
     "icons": [
