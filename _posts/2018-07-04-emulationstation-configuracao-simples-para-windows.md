@@ -14,21 +14,21 @@ Pela data dos arquivos que estão no disco, isso foi em abril de 2006. Que sauda
 
 ![dvd](../img/dvd_emuladores-768x1024.jpg)
 
-> Caso você queira pular toda essa minha história e explicação sobre os emuladores, pode ir direto para o site do projeto, clicando [aqui](https://prelias.github.io/win10_emulation_station/). Lá contém uma explicação de como proceder para instalar.
+> Caso você queira pular toda essa minha história e explicação sobre os emuladores, pode ir direto para o site do projeto, clicando [aqui](https://prelias.github.io/win10_emulation_station/){:target="_blank"}. Lá contém uma explicação de como proceder para instalar.
 
-Voltando a falar do cenário atual e do [Raspberry](https://pt.wikipedia.org/wiki/Raspberry_Pi) (eu mesmo tenho o meu, lógico), trata-se de um minicomputador, com poder suficiente pra emular os consoles antigos.  Para um apaixonado pela nostalgia dos games do passado, é simplesmente maravilhoso. Eles viraram uma febre, embora nem todo mundo conheça por esse nome, pois muitas pessoas comercializam um pacote já pronto contendo o computador, jogos, etiquetas e até cabines ou controles.
+Voltando a falar do cenário atual e do [Raspberry](https://pt.wikipedia.org/wiki/Raspberry_Pi){:target="_blank"} (eu mesmo tenho o meu, lógico), trata-se de um minicomputador, com poder suficiente pra emular os consoles antigos.  Para um apaixonado pela nostalgia dos games do passado, é simplesmente maravilhoso. Eles viraram uma febre, embora nem todo mundo conheça por esse nome, pois muitas pessoas comercializam um pacote já pronto contendo o computador, jogos, etiquetas e até cabines ou controles.
 
 Porém, muita gente ainda usa o próprio PC para emulação de jogos e é possível aproveitar alguns dos desenvolvimentos que fizeram para ele, também no Windows, ficando com um sistema praticamente idêntico ao conseguido no mini PC.
 
-Uma das principais evoluções foi o advento do [Libretro](https://www.libretro.com/) e do [Retroarch](http://www.retroarch.com/). Trata-se de aplicações ou projetos, que converteram os antigos emuladores em DLLs, fazendo eles trabalharem por debaixo dos panos, através de uma interface única, o que permitiu que você trocasse de console sem sequer sair do aplicativo.
+Uma das principais evoluções foi o advento do [Libretro](https://www.libretro.com/){:target="_blank"} e do [Retroarch](http://www.retroarch.com/){:target="_blank"}. Trata-se de aplicações ou projetos, que converteram os antigos emuladores em DLLs, fazendo eles trabalharem por debaixo dos panos, através de uma interface única, o que permitiu que você trocasse de console sem sequer sair do aplicativo.
 
-Em cima desses sistemas, surgiram mais diversos projetos de customização da interface e um deles, que é muito famoso e funciona no Windows, é o [Emulation Station](https://emulationstation.org/).
+Em cima desses sistemas, surgiram mais diversos projetos de customização da interface e um deles, que é muito famoso e funciona no Windows, é o [Emulation Station](https://emulationstation.org/){:target="_blank"}.
 
 ## O projeto
 
 Procurando na internet, encontrei um projeto no GitHub que fazia quase exatamente o que eu esperava. Ele conecta nos endereços corretos, baixa e configura tudo automaticamente, de forma bem fácil.
 
-Realizei um fork do repositório e inclusive inclui minhas próprias contribuições (conto um pouco mais sobre esse processo em um futuro post). Sendo assim, você pode usar os links desse post para a minha versão do projeto ou acessar o original [aqui](https://github.com/Francommit/win10_emulation_station).
+Realizei um fork do repositório e inclusive inclui minhas próprias contribuições (conto um pouco mais sobre esse processo em um futuro post). Sendo assim, você pode usar os links desse post para a minha versão do projeto ou acessar o original [aqui](https://github.com/Francommit/win10_emulation_station){:target="_blank"}.
 
 Eu inclui os dois links para que, caso alguma modificação minha não seja aceita pelo dono do projeto original, seja possível ter as duas opções, e também, claro, para dar o devido crédito.
 
@@ -36,7 +36,7 @@ O arquivo de instruções está em inglês, mas possui um link para a tradução
 
 ## Instalando
 
-Você pode navegar até o site e baixar o pacote do Emulation Station por si mesmo, mas algumas configurações são um pouco mais complexas de serem feitas e é aí que entra o projeto “win10_emulation_station”.  Se preferir, você pode baixá-lo nesse link: [download](https://github.com/PRElias/win10_emulation_station/tree/choco-auto-install). Mas repito, recomendo que você utilize o [instalador do projeto](https://github.com/PRElias/win10_emulation_station/tree/choco-auto-install).
+Você pode navegar até o site e baixar o pacote do Emulation Station por si mesmo, mas algumas configurações são um pouco mais complexas de serem feitas e é aí que entra o projeto “win10_emulation_station”.  Se preferir, você pode baixá-lo nesse link: [download](https://github.com/PRElias/win10_emulation_station/tree/choco-auto-install){:target="_blank"}. Mas repito, recomendo que você utilize o [instalador do projeto](https://github.com/PRElias/win10_emulation_station/tree/choco-auto-install){:target="_blank"}.
 
 O arquivo LEIAME no repositório (possui um link para a tradução em Português que, inclusive foi escrita por mim) já explica muito bem como proceder, mas ainda complementarei com mais algumas informações abaixo.
 
