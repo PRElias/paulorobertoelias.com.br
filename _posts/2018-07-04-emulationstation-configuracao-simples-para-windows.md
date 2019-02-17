@@ -12,7 +12,7 @@ Eu já brinco com emuladores há muitos anos. Era tão apaixonado que já tentav
 
 Pela data dos arquivos que estão no disco, isso foi em abril de 2006. Que saudades…
 
-![dvd](dvd_emuladores-768x1024.jpg)
+![dvd](/img/dvd_emuladores-768x1024.jpg)
 
 Caso você queira pular toda essa minha história e explicação sobre os emuladores, pode ir direto para o site do projeto, clicando [aqui](https://prelias.github.io/win10_emulation_station/). Lá contém uma explicação de como proceder para instalar.
 
