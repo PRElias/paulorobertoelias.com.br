@@ -1,6 +1,7 @@
 ---
 layout: post
 title: MyCollections
+use-site-title: true
 image: /img/mycollections.gif
 bigimg: /img/mycollections.gif
 tags: [projetos, jogos]

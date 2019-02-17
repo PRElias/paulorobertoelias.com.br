@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Business Content Repository
+use-site-title: true
 image: /img/bcr.png
 bigimg: /img/02.jpg
 tags: [projetos, scrum]

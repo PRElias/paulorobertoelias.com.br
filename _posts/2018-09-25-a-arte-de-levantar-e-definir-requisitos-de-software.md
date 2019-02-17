@@ -1,6 +1,7 @@
 ---
 layout: post
 title: A arte de levantar e definir requisitos de software
+use-site-title: true
 image: /img/project_sw.jpg
 bigimg: /img/project_sw.jpg
 tags: [projetos, scrum]
