@@ -14,7 +14,7 @@ Apesar de, como eu disse, não concordar com a visão de que o papel é menos t�
 
 Só essa frase já arrepiaria os cabelos de puristas envolvidos no mercado de T.I. e amantes da sua completa lógica e até previsibilidade, mas a verdade é que há grandes fatores humanos e espaço para “feelings“.
 
-![imagem](..//img/project_sw.jpg)
+![imagem](../img/project_sw.jpg)
 
 Lógico que todo feeling também acaba por se originar de experiência, dados estatísticos e tudo o mais que envolve as diversas questões que se colocam, mas defino dessa maneira pois são fatores as vezes difíceis de se corroborar com dados ou mesmo propor testes e análises específicas, ainda mais na velocidade em que são exigidos.
 
