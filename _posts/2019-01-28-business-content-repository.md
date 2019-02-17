@@ -1,7 +1,9 @@
 ---
 layout: post
 title: Business Content Repository
-image: ./img/bcr.png
+image: /img/bcr.png
+bigimg: /img/bcr.png
+tags: [projetos, scrum]
 ---
 
 Gostaria de compartilhar aqui uma ideia que tive em meio a um curso de BPM, que tive o prazer de participar, na empresa em que eu trabalho.

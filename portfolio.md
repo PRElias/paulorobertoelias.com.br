@@ -14,7 +14,7 @@ Teleresponde é uma pequena empresa da minha cidade natal, Piracicaba, que agreg
 [iOS](https://itunes.apple.com/us/app/teleresponde/id1199838723?mt=8)
 
 
-## Chikaline
+## Chikalina
 
 Chikalina é o nome do empreendimento de venda de roupas da minha esposa. Ela comercializa roupas as levando até as casas das suas clientes. O negócio em si existe há mais de 15 anos, tendo sido criado pela sua mãe que a acompanha até hoje. O site foi desenvolvido do zero por mim, sem o uso de templates e conta com o uso da Graph API do Facebook para recuperar as últimas fotos que postamos na fanpage.
                     
