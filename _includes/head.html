@@ -6,7 +6,7 @@
   <title>{% if page.use-site-title %}{{ site.title }} {{ site.title-separator }} {{ site.description }}{% elsif page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
 
   <!-- PWA Manifest -->
-  <link rel="manifest" href="manifest.json" />
+  <link rel="manifest" href="{{ site.baseurl }}/manifest.json" />
 
   <meta name="theme-color">
   
