@@ -46,6 +46,15 @@
     </a>
   {% endif %}
 
+  {% if site.share-links-active.whatsapp %}
+  <!--- Share on Whatsapp -->
+    <a href="https://api.whatsapp.com/send?text={{ site.url }}{{ page.url }}"
+      class="btn btn-social-icon btn-whatsapp" title="Share on Whatsapp">
+      <span class="fa fa-fw fa-whatsapp" aria-hidden="true"></span>
+      <span class="sr-only">Whatsapp</span>
+    </a>
+  {% endif %}
+
 </section>
 
 {% endif %}
