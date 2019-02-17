@@ -1,21 +1,21 @@
 ---
 layout: page
-title: Sobre
-subtitle: Why you'd want to go on a date with me
+title: Paulo Roberto Elias
+subtitle: Biografia
 ---
 
-Olá, meu nome é Paulo e essas são minhas paixões:
+## Minha história
 
-- I rock a great mustache
-- I'm extremely loyal to my family
+## O site
 
-What else do you need?
+A ideia de ter um site pessoal é bem antiga na minha cabeça, mas comecei a botá-la em prática em meados de 2012. De lá pra cá eu já passei por várias versões, formatos e tecnologias. Migração de servidores, diferentes domínios e tudo que envolve manter um site, por menor e mais simples que ele seja. Das publicações em FTP até o Github Pages foram anos de aprendizado e cabeçadas, mas mais uma vez, após essa última mudança sendo feita em fevereiro de 2019, posso dizer que estou contente até a próxima ideia.
 
-### my history
+O site passou a contemplar um blog, após uma fase bem legal onde desenvolvi e gerenciei um blog com mais dois amigos de trabalho por um tempo. Era um blog sobre games, em tecnologia Wordpress e foi uma experiência muito proveitosa, mesmo com os números baixíssimos de acesso. Foi ali que comecei a aprender mais sobre a tecnologia Wordpress e então aluguei um servidor pra mim e comecei meu blog particular, depois que desistimos de continuar com o blog de games.
 
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](http://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+Porém eu comecei a me interessar por reduzir custos, já que eu pagava dois domínios diferentes e mais um caro* servidor americano pra hospedar o Wordress e mais sua base de dados. Foi então que comecei a pesquisar o Github Pages e as tecnologias de sites e blos estáticos. Em um primeiro momento, fiquei encantado com o framework [Hexo](https://hexo.io/pt-br/), mas ainda sentia que meu workflow ao publicar textos estava um pouco chato e foi então que me rendi ao framework mais famoso de todos nesse quesito, o [Jekyll](https://jekyllrb.com/). Além de possuir um aprendizando muito rápido, a profusão de trabalhos prontos e livres para uso é gigantesca e foi assim que eu escolhi um tema (link no rodapé do site) e comecei a construir a versão 2019 do meu site integrado ao blog.
 
+## Minhas paixões
 
-Olá, meu nome é Paulo e trabalho diretamente com tecnologia da informação desde 2009, depois de desistir de uma carreira como funcionário público para seguir essa minha vocação. Bacharel em Administração de Empresas por formação, sou também pós-graduado em Engenharia de Software. Já atuei em diversas posições diferentes, mas atualmente trabalho com análise de requisitos em projetos Web e Mobile desde 2013. Sou um entusiasta de tecnologia desde criança, sempre procurando aprender mais e mais. Eu gosto de diversas tecnologias, desde programação à hardware, redes, sistemas operacionais e sou apaixonado por livros
+# Quem é Paulo Roberto Elias em resumo
 
-Aqui neste site você terá acesso à todas minhas opções de contato e pode também baixar uma versão atualizada do meu currículo. Você é muito bem-vindo também a visitar o meu blog, utilizando o menu ou clicando aqui
+Apaixonado por tudo que envolva tecnologia e games, adora escrever algumas coisas, mesmo que ninguém leia. Trabalha como analista de sistemas, casado e sempre pensando em aumentar a coleção de coisas nerds, livros, filmes, etc. Não terá tempo de jogar todos seus jogos nem se durar mais 128 anos

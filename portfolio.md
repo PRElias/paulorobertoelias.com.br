@@ -8,6 +8,8 @@ A maioria dos projetos nos quais trabalhei, em todas as empresas, foram projetos
 
 ## Teleresponde
 
+![image](../img/teleresponde.png)
+
 Teleresponde é uma pequena empresa da minha cidade natal, Piracicaba, que agrega informação de parceiros comerciais da cidade e região, com alto grau de confiabilidade. Provendo informações como números de contato e endereço a centenas de usuários. Com versões para Android e iOS, o aplicativo usa tecnologia Cordova e demais tecnologias Web como HTML, CSS e Javascript para buscar informação em uma API Rest e exibir resultados, utilizando também a API do Google Maps.
 
 [Android](https://play.google.com/store/apps/details?id=com.n3up.teleresponde&hl=pt-BR)
@@ -15,6 +17,8 @@ Teleresponde é uma pequena empresa da minha cidade natal, Piracicaba, que agreg
 
 
 ## Chikalina
+
+![image](../img/chikalina.png)
 
 Chikalina é o nome do empreendimento de venda de roupas da minha esposa. Ela comercializa roupas as levando até as casas das suas clientes. O negócio em si existe há mais de 15 anos, tendo sido criado pela sua mãe que a acompanha até hoje. O site foi desenvolvido do zero por mim, sem o uso de templates e conta com o uso da Graph API do Facebook para recuperar as últimas fotos que postamos na fanpage.
                     
@@ -51,6 +55,8 @@ Sistema para controle de coleções de jogos e futuramente livros e filmes. Cont
 [Repositório no GitHub](https://github.com/PRElias/MyCollections)
 
 ## EmulationStation para Windows
+
+![image](../img/es-win.png)
 
 Instalador EmulationStation para Windows em Powershell script. O projeto foi idealizado e desenvolvido por um australiano chamado [Chris Franco](href="https://github.com/Francommit) e que fazia exatamente o que eu procurava. Inclui algumas novas funcionalidades, como integração com o OneDrive e novos emuladores, além da automatização do processo de scraping e passamos a trabalhar juntos no projeto, o que foi muito gratificante.
 
