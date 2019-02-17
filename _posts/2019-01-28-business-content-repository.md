@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Business Content Repository
-image: ./img/bcr.jpeg
+image: ./img/bcr.png
 ---
 
 Gostaria de compartilhar aqui uma ideia que tive em meio a um curso de BPM, que tive o prazer de participar, na empresa em que eu trabalho.
