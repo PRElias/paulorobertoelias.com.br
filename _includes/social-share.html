@@ -55,6 +55,15 @@
     </a>
   {% endif %}
 
+  {% if site.share-links-active.pocket %}
+  <!--- Save on Pocket -->
+    <a href="{{ site.url }}{{ page.url }}?share=pocket&nb=1"
+      class="btn btn-social-icon btn-get-pocket" title="Save on Pocket">
+      <span class="fa fa-fw fa-get-pocket" aria-hidden="true"></span>
+      <span class="sr-only">Pocket</span>
+    </a>
+  {% endif %}
+
 </section>
 
 {% endif %}
