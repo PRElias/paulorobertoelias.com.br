@@ -312,3 +312,5 @@ docker build -t site .
 ```
 docker run --name sitedocker -itd -p 8080:80 -v c:/Worskpace/paulorobertoelias.com.br:/var/www/app site
 ```
+
+[Markdown help](https://kramdown.gettalong.org/syntax.html#images)

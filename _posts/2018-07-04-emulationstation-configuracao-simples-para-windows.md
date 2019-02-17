@@ -14,7 +14,7 @@ Pela data dos arquivos que estão no disco, isso foi em abril de 2006. Que sauda
 
 ![dvd](/img/dvd_emuladores-768x1024.jpg)
 
-Caso você queira pular toda essa minha história e explicação sobre os emuladores, pode ir direto para o site do projeto, clicando [aqui](https://prelias.github.io/win10_emulation_station/). Lá contém uma explicação de como proceder para instalar.
+[^1]Caso você queira pular toda essa minha história e explicação sobre os emuladores, pode ir direto para o site do projeto, clicando [aqui](https://prelias.github.io/win10_emulation_station/). Lá contém uma explicação de como proceder para instalar.[^footnote]
 
 Voltando a falar do cenário atual e do [Raspberry](https://pt.wikipedia.org/wiki/Raspberry_Pi) (eu mesmo tenho o meu, lógico), trata-se de um minicomputador, com poder suficiente pra emular os consoles antigos.  Para um apaixonado pela nostalgia dos games do passado, é simplesmente maravilhoso. Eles viraram uma febre, embora nem todo mundo conheça por esse nome, pois muitas pessoas comercializam um pacote já pronto contendo o computador, jogos, etiquetas e até cabines ou controles.
 
