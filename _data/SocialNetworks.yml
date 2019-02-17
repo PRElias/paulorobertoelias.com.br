@@ -108,5 +108,5 @@ medium:
 
 skype:
   name: "Skype"
-  baseURL: "skype:{{ site.author.skype }}?chat"
+  baseURL: "skype:"
   icon: "fa-skype"
