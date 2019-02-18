@@ -24,6 +24,7 @@ description: Site pessoal e blog
 # List of links in the navigation bar
 navbar-links:
   Home: ""
+  Categorias: "tags"
   Sobre: "aboutme"
 #  Resources:
 #    - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
