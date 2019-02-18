@@ -27,7 +27,7 @@ O importante é lembrar que nem toda contribuição decorre de grandes e intelig
 
 E aproveito essa deixa pra comentar sobre minha primeira real contribuição!
 
-[imagem1](../img/contribuicao-768x919.png)
+![imagem1](../img/contribuicao-768x919.png){: .align-center}
 
 Veja que o seu nome fica gravado como um contribuidor do projeto, o que é bem gratificante, podendo até mesmo servir como algo interessante no seu currículo virtual.
 
