@@ -5,6 +5,7 @@ use-site-title: true
 image: /img/bcr.png
 bigimg: /img/02.jpg
 share-img: /img/02.jpg
+canonical-url: http://blog.paulorobertoelias.com.br/index.php/2019/01/28/business-analysis-content-repository/
 tags: [projetos, scrum]
 ---
 
