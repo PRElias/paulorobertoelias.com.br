@@ -19,7 +19,7 @@ Tentei formatar o som, reconectar mais de uma vez e nada. Pesquisei na internet 
 
 Foi então que, em um golpe de sorte e lógica, uma opção me chamou a atenção na configuração de mídias compartilhadas (ao clicar sobre o dispositivo em questão no Bluetooth do celular). Entre as opções “Usar para” abaixo, me chamou a atenção o item “Usar áudio de alta qualidade”.
 
-![imagem1](Screenshot_20180803-083553.jpg){: .align-center}
+![imagem1](../img/Screenshot_20180803-083553.jpg){: .align-center}
 
 E era justamente ele o causador do problema. Foi só desmarcar a opção e o áudio começou a funcionar corretamente.
 
