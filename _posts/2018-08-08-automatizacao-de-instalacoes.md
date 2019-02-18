@@ -4,6 +4,7 @@ title: Automatização de Instalações
 use-site-title: true
 image: /img/chocolatey.png
 bigimg: /img/chocolatey.png
+redirect_from: http://blog.paulorobertoelias.com.br/index.php/2018/08/08/automatizacao-de-intalacoes/
 tags: [dicas]
 ---
 

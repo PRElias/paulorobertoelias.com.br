@@ -5,6 +5,7 @@ use-site-title: true
 image: /img/logo_es.png
 bigimg: /img/logo_es.png
 share-img: /img/logo_es.png
+redirect_from: http://blog.paulorobertoelias.com.br/index.php/2018/08/08/automatizacao-de-intalacoes/
 tags: [projetos, scrum]
 ---
 

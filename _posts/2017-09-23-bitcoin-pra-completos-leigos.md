@@ -4,6 +4,7 @@ title: Bitcoin para completos leigos
 use-site-title: true
 image: /img/bitcoin-b-825x510.jpg
 bigimg: /img/bitcoin-b-825x510.jpg
+redirect_from: http://blog.paulorobertoelias.com.br/index.php/2017/09/23/bitcoin-pra-completos-leigos/
 tags: [bitcoin]
 ---
 

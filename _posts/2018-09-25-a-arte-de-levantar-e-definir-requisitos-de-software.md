@@ -4,6 +4,7 @@ title: A arte de levantar e definir requisitos de software
 use-site-title: true
 image: /img/project_sw.jpg
 bigimg: /img/project_sw.jpg
+redirect_from: http://blog.paulorobertoelias.com.br/index.php/2018/09/25/a-arte-de-levantar-e-definir-requisitos-de-software/
 tags: [projetos, scrum]
 ---
 

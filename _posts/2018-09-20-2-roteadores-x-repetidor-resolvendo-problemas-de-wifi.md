@@ -4,6 +4,7 @@ title: Usando 2 roteadores e resolvendo o problema do WiFi
 use-site-title: true
 image: /img/powerlines-repetidores.jpg
 bigimg: /img/powerlines-repetidores.jpg
+redirect_from: http://blog.paulorobertoelias.com.br/index.php/2018/09/20/2-roteadores-x-repetidor-resolvendo-problemas-de-wifi/
 tags: [dicas]
 ---
 

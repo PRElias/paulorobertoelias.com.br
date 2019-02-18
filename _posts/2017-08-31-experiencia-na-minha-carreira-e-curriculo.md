@@ -4,6 +4,7 @@ title: Experiência na minha carreira e currículo
 use-site-title: true
 image: /img/experiencia-do-cliente-feed.jpg
 bigimg: /img/experiencia-do-cliente-feed.jpg
+redirect_from: http://blog.paulorobertoelias.com.br/index.php/2017/08/31/experiencia-na-minha-carreira-e-curriculo/
 tags: [curriculo, biografia]
 ---
 

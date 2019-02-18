@@ -4,6 +4,7 @@ title: EmulationStation fácil para Windows - novidades
 use-site-title: true
 image: /img/es-win.png
 bigimg: /img/es-win.png
+redirect_from: http://blog.paulorobertoelias.com.br/index.php/2018/09/09/emulationstation-facil-para-windows-novidades/
 tags: [projetos, emuladores]
 ---
 

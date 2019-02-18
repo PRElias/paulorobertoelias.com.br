@@ -4,6 +4,7 @@ title: Dicas de Ferramentas de Estudo
 use-site-title: true
 image: /img/estudo.jpg
 bigimg: /img/estudo.jpg
+redirect_from: http://blog.paulorobertoelias.com.br/index.php/2017/07/28/learning-tools-tips/
 tags: [dicas]
 ---
 

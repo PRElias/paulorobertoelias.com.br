@@ -4,6 +4,7 @@ title: Separação de Papéis em Projetos
 use-site-title: true
 image: /img/shutterstock_139490855_redim-825x510.jpg
 bigimg: /img/shutterstock_139490855_redim-825x510.jpg
+redirect_from: http://blog.paulorobertoelias.com.br/index.php/2017/08/29/portugues-do-brasil-separacao-de-papeis-em-projetos/
 tags: [scrum]
 ---
 

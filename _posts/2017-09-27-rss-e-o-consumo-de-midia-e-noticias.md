@@ -4,6 +4,7 @@ title: RSS e o consumo de mídia e notícias
 use-site-title: true
 image: /img/rss.png
 bigimg: /img/rss.png
+redirect_from: http://blog.paulorobertoelias.com.br/index.php/2017/09/27/rss-e-o-consumo-de-midia-e-noticias/
 tags: [rss]
 ---
 

@@ -4,6 +4,7 @@ title: MyCollections
 use-site-title: true
 image: /img/mycollections.gif
 bigimg: /img/mycollections.gif
+redirect_from: http://blog.paulorobertoelias.com.br/index.php/2018/10/17/mycollections-projeto-pessoal-open-source-de-controle-de-colecoes/
 tags: [projetos, jogos]
 ---
 

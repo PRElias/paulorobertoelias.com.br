@@ -4,6 +4,7 @@ title: PIP no Google Chrome - Vídeo Flutuante
 use-site-title: true
 image: /img/chrome-69.jpg
 bigimg: /img/chrome-69.jpg
+redirect_from: http://blog.paulorobertoelias.com.br/index.php/2018/09/08/chrome-69-utilizando-pip-video-flutuante/
 tags: [dicas]
 ---
 

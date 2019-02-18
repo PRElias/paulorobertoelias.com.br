@@ -4,6 +4,7 @@ title: Oracle SQL Developer – Relatórios Mestre x Detalhes
 use-site-title: true
 image: /img/oracle-sql-developer.png
 bigimg: /img/oracle-sql-developer.png
+redirect_from: http://blog.paulorobertoelias.com.br/index.php/2018/01/25/oracle-sql-developer-relatorios-mestre-x-detalhes/
 tags: [dicas]
 ---
 
