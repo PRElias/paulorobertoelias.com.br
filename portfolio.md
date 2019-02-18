@@ -25,7 +25,9 @@ Chikalina é o nome do empreendimento de venda de roupas da minha esposa. Ela co
 [Visitar](http://chikalina.com.br/)
                     
 
-## Financial File Manmager
+## Financial File Manager
+
+![image](../img/ffm.png){: .align-center}
 
 Esta aplicação está sendo desenvolvida para ser open-source (código fonte disponível no [GitHub](https://github.com/PRElias/FinancialFileManager). Ela foi idealizada a partir da necessidade de um cliente real, de conversão de arquivos texto para diversos formatos para importação em aplicações ERP. A maioria dessas aplicações ainda se utiliza de transferências de dados à partir de arquivos e é sempre desafiador realizar essas integrações.
 
@@ -33,12 +35,16 @@ Esta aplicação está sendo desenvolvida para ser open-source (código fonte di
 
 
 ## Document Generator
+
+![image](../img/Document-2.png){: .align-center}
                 
 Este projeto pessoal surgiu de uma ideia sobre geração e manutenção de documentos funcionais e técnicos de projetos. Ele trabalha com a conversão de arquivos markdown para HTML e você pode obter mais informações no arquivo README do projeto no GitHub, ou no post que fiz sobre o mesmo no meu blog.
 
 [Repositório no GitHub](https://github.com/PRElias/document-generator)
                         
 ## Simple Business Manager
+
+![image](../img/simple-business-card-100-free-business-cards-psd-the-best-of-free-business-cards-ideas.jpg){: .align-center}
                         
 O sistema foi desenvolvido para controlar operações financeiras e no momento não está acessível pois começamos a implantar o uso e apresenta dados reais, mas logo 
 pretendo disponibilizar o seu código-fonte no GitHub, assim como uma versão sem autenticação para demonstração.
@@ -48,6 +54,8 @@ pretendo disponibilizar o seu código-fonte no GitHub, assim como uma versão se
 
 
 ## My Collections
+
+![image](../img/mycollections.gif){: .align-center}
                 
 Sistema para controle de coleções de jogos e futuramente livros e filmes. Contruído em dotnet Core, possui código aberto disponível no GitHub e também é disponibilizado no link abaixo. Trata-se de um projeto pessoal para uso próprio e estudo, com contantes evoluções e correções.
 
