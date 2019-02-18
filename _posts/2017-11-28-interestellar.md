@@ -45,7 +45,7 @@ Como se não bastasse lidar com essa forma tão sublime e especial de amor, ele 
 
 Com um final muito controverso e até mesmo psicodélico, dividiu muitas opiniões e recebeu muitas críticas negativas por isso e foi então que me deparei com o vídeo abaixo e que me inspirou a escrever esse post.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/l7tV7v71k-I" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/l7tV7v71k-I" frameborder="0" allowfullscreen class="align-center"></iframe>
 
 Na entrevista concedida pelo popstar da física mundial, Neil deGrasse Tyson, fica fácil perceber como você pode sim respeitar o que foi feito, em vez de ficar se achando entendido do assunto e curtir uma obra que tenta imaginar o que nenhum ser humano sequer chegou perto de vislumbrar e quiça você passe a admirar o esforço desses artistas em tentar colocar em imagens o que faz parte apenas da imaginação, mesmo de grandes cientistas.
 
