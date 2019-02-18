@@ -28,6 +28,8 @@ Sou apaixonado por tecnologia desde muito criança. Lembro até hoje os primeiro
 
 E esse amor seguiu assim também na minha vida adulta. Minha mãe me conseguiu um emprego numa loja de informática e eu pude aprender demais com meu colegas a arte da montagem, manutenção, formatações e detalhes do Windows. Embora eu não tenha feito uma faculdade relacionada a tecnologia, por diversos fatores (entre eles o financeiro) eu ainda sonhava em voltar a trabalhar e ter contato com tecnologia por toda minha carreira. Foi então que fui trabalhar em São Paulo na área de infraestrutura de uma grande empresa, logo passando a divisão de produtos e não saí mais da área de projetos.
 
+Alguns relatos da minha história foram planejados para serem contados em formatos de posts, embora até hoje eu só tenha escrito um, que você pode conferir [aqui](https://prelias.github.io/paulorobertoelias.com.br/2017-08-31-experiencia-na-minha-carreira-e-curriculo/).
+
 ## O site
 
 A ideia de ter um site pessoal é bem antiga na minha cabeça, mas comecei a botá-la em prática em meados de 2012. De lá pra cá eu já passei por várias versões, formatos e tecnologias. Migração de servidores, diferentes domínios e tudo que envolve manter um site, por menor e mais simples que ele seja. Das publicações em FTP até o Github Pages foram anos de aprendizado e cabeçadas, mas mais uma vez, após essa última mudança sendo feita em fevereiro de 2019, posso dizer que estou contente até a próxima ideia.
