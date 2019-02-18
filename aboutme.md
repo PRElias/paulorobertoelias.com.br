@@ -8,9 +8,9 @@ subtitle: Biografia
 
 Se você estiver a procura do meu currículo, possuo aqui diversas versões e línguas, tanto para utilização própria, como para quem tiver interesse:
 
-[Português](https://1drv.ms/w/s!Alnyo-7sjku2gZRNl0AePWRkDH2UTQ)
-[English](https://1drv.ms/w/s!Alnyo-7sjku2gZRMYKdVy87EmM7xSg)
-[Europass](https://1drv.ms/b/s!Alnyo-7sjku2gZRO1qY-Qd4t1YTE-g)
+[Português](https://1drv.ms/w/s!Alnyo-7sjku2gZRNl0AePWRkDH2UTQ)  
+[English](https://1drv.ms/w/s!Alnyo-7sjku2gZRMYKdVy87EmM7xSg)  
+[Europass](https://1drv.ms/b/s!Alnyo-7sjku2gZRO1qY-Qd4t1YTE-g)  
 
 ## Especialidades
 
