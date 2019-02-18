@@ -4,7 +4,25 @@ title: Paulo Roberto Elias
 subtitle: Biografia
 ---
 
+## Currículos
+
+Se você estiver a procura do meu currículo, possuo aqui diversas versões e línguas, tanto para utilização própria, como para quem tiver interesse:
+
+[Português](https://1drv.ms/w/s!Alnyo-7sjku2gZRNl0AePWRkDH2UTQ)
+[English](https://1drv.ms/w/s!Alnyo-7sjku2gZRMYKdVy87EmM7xSg)
+[Europass](https://1drv.ms/b/s!Alnyo-7sjku2gZRO1qY-Qd4t1YTE-g)
+
+## Especialidades
+
+No currículo, nem sempre temos espaço de nos abrirmos e expormos detalhes de nossas qualificações, sendo assim, gostaria de falar um pouco sobre mim mesmo aqui neste espaço.
+
+Minha especialidade principal é base de dados e tudo que envolva linguagem SQL, como PL-SQL, T-SQL, tunning, profiler, etc.
+
+**Em progresso**
+
 ## Minha história
+
+Caso você queira mais detalhes sobre mim e minha personalidade, fique a vontade para acompanhar um pouco dos meus causos abaixo.
 
 Sou apaixonado por tecnologia desde muito criança. Lembro até hoje os primeiros contatos que tive com videogames e computadores (embora não reconheça uma cronologia entre essas lembranças). Lembro da primeira vez que vi um jogo de truco no Windows 3.11 na casa de um amigo, ou do Atari de um primo da minha mãe que eu só via quando fomos visitá-lo umas duas vezes. Por sorte eu tive acesso a computadores através desses amigos da escola, embora só tenha podido ter um já aos 18 anos. Já videogames eu consegui ter e mais tarde foram minha motivação para começar trabalhar cedo, tamanha era o meu amor por eles.
 
