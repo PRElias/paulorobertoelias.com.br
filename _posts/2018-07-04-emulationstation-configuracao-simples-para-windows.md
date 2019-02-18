@@ -4,6 +4,7 @@ title: EmulationStation - configuração simples para Windows
 use-site-title: true
 image: /img/logo_es.png
 bigimg: /img/logo_es.png
+share-img: /img/logo_es.png
 tags: [projetos, scrum]
 ---
 
