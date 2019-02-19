@@ -7,7 +7,7 @@ bigimg: /img/sqlserver.png
 share-img: /img/sqlserver.png
 redirect_from: http://blog.paulorobertoelias.com.br/index.php/2019/01/28/business-analysis-content-repository/
 tags: [sqlserver, dicas]
-published: false
+published: true
 ---
 
 A dica de hoje é para o SQL Server e demonstra como conseguir sugestões de índices de forma simples. Muitas vezes, alguns problemas de performance são causados pela ausência deles, mas fazer a criação manualmente pode exigir um grau de conhecimento um pouco maior.
