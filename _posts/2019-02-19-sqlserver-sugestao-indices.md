@@ -12,9 +12,9 @@ published: true
 
 A dica de hoje é para o SQL Server e demonstra como conseguir sugestões de índices de forma simples. Muitas vezes, alguns problemas de performance são causados pela ausência deles, mas fazer a criação manualmente pode exigir um grau de conhecimento um pouco maior.
 
-Claro que, quanto mais você conhecer o funcionamente, melhores decisões você tomará e algumas das variáveis escapam ao servidor no momento da sugestão, como por exemplo, se a perda de performance no INSERT vale e pena pelo aumento no SELECT, na tabela em questão.
+Claro que, quanto mais você conhecer o funcionamento, melhores decisões você tomará e algumas das variáveis escapam ao servidor no momento da sugestão, como por exemplo, se a perda de performance no INSERT vale e pena pelo aumento dela no SELECT, na tabela em questão.
 
-Mas minha intenção nesse post não discorrer sobre todas essas variáveis, mas sim demonstrar como você pode facilmente verificar e aplicar a sugestão gerada pelo SQL Server
+Mas minha intenção nesse post não é discorrer sobre todas essas variáveis, mas sim demonstrar como você pode facilmente verificar e aplicar a sugestão gerada pelo SQL Server
 
 ![image](../img/sqlserver-index.png){: .align-center}
 
