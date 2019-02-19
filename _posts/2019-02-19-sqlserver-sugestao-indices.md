@@ -1,6 +1,6 @@
 ---
 layout: post
-title: SQL server - sugestão de índices
+title: SQL Server - sugestão de índices
 use-site-title: true
 image: /img/sqlserver.png
 bigimg: /img/sqlserver.png
