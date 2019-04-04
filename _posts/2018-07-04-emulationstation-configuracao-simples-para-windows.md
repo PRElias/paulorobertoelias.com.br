@@ -6,7 +6,7 @@ image: /img/logo_es.png
 bigimg: /img/logo_es.png
 share-img: /img/logo_es.png
 redirect_from: http://blog.paulorobertoelias.com.br/index.php/2018/08/08/automatizacao-de-intalacoes/
-tags: [projetos, scrum]
+tags: [projetos, emuladores]
 ---
 
 O cenário da emulação mudou bastante nos últimos anos, com o surgimento das versões para os mini computadores Raspberry Pi, que viraram simplesmente uma febre.

@@ -114,10 +114,10 @@ share-links-active:
 gtag: "UA-48861101-1"
 
 # Fill in your Google Analytics ID to track your website using GA
-google_analytics: "UA-48861101-1"
+# google_analytics: "UA-48861101-1"
 
 # Google Tag Manager ID
-#gtm: ""
+# gtm: "GTM-NXC5NPF"
 
 # Matomo (aka Piwik) Web statistics
 # Uncomment the following section to enable Matomo. The opt-out parameter controls
