@@ -288,6 +288,7 @@ footer {
 
 footer p.text-muted {
   color: {{ site.footer-text-col }};
+  margin: 5px;
 }
 
 footer a {
