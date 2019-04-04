@@ -267,7 +267,7 @@ img {
 
 /* --- Footer --- */
 
-.container {
+.container.main {
   margin-bottom: 250px;
 }
 
