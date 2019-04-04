@@ -275,7 +275,7 @@ footer {
   padding: 5px 0;
   border-top: 1px #EAEAEA solid;
   /* margin-top: 50px; */
-  font-size: 14px;
+  font-size: 10px;
   background-color: {{ site.footer-col }};
   position: fixed;
   bottom: 0;
