@@ -267,12 +267,19 @@ img {
 
 /* --- Footer --- */
 
+.container.main {
+  margin-bottom: 250px;
+}
+
 footer {
-  padding: 30px 0;
+  padding: 5px 0;
   border-top: 1px #EAEAEA solid;
-  margin-top: 50px;
-  font-size: 14px;
+  /* margin-top: 50px; */
+  font-size: 10px;
   background-color: {{ site.footer-col }};
+  position: fixed;
+  bottom: 0;
+  width: 100%;
   {% if site.footer-img %}
   background-image: url({{ site.footer-img }});
   background-attachment: fixed;
@@ -281,6 +288,7 @@ footer {
 
 footer p.text-muted {
   color: {{ site.footer-text-col }};
+  margin: 5px;
 }
 
 footer a {
@@ -303,13 +311,13 @@ footer .theme-by {
 
 @media only screen and (min-width: 768px) {
   footer {
-    padding: 50px 0;
+    padding: 5px 0;
   }
   footer .footer-links {
-    font-size: 18px;
+    font-size: 10px;
   }
   footer .copyright {
-    font-size: 16px;
+    font-size: 14px;
   }
 }
 
