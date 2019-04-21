@@ -19,7 +19,7 @@ Basta abrir o Putty e informar no campo Host Name o valor ```recalbox``` e assim
 
 Ele exibe uma lista de todos os processos rodando no computador (no caso no Raspberry) e então, basta você localizar o processo do EmulationStation e anotar o seu **PID**, para depois usá-lo no segundo comando, que é o ```kill```, que você digitará em conjunto com o número do processo encontrado no passo anterior. Com isso a tela do Recalbox ficará preta e você poderá editar o arquivo pelo computador sem correr o risco do mesmo ser sobrescrito ao sair.
 
-Depois de fazer as alterações desejadas, você inclusive reiniciar o Recalbox também pelo Putty, executando o comando ```/etc/init.d/S31emulationstation start```. 
+Há também um outro comando específico que pode ser usado, que é o ```/etc/init.d/S31emulationstation stop```. O resultado é o mesmo, mas é mais simples, por se tratar de um comando único. Depois de fazer as alterações desejadas, você pode inclusive reiniciar o Recalbox também pelo Putty, executando o comando ```/etc/init.d/S31emulationstation start```. 
 
 Referências:  
 [Quitting EmulationStation via SSH](https://www.reddit.com/r/RetroPie/comments/4klpw7/quitting_emulationstation_via_ssh/)  
