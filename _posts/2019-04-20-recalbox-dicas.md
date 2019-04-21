@@ -21,6 +21,8 @@ Ele exibe uma lista de todos os processos rodando no computador (no caso no Rasp
 
 Há também um outro comando específico que pode ser usado, que é o ```/etc/init.d/S31emulationstation stop```. O resultado é o mesmo, mas é mais simples, por se tratar de um comando único. Depois de fazer as alterações desejadas, você pode inclusive reiniciar o Recalbox também pelo Putty, executando o comando ```/etc/init.d/S31emulationstation start```. 
 
+Outro software bastante interessante para se conectar e executar comandos e também copiar arquivos (alguns arquivos do Recalbox possuem segurança e não ficam na pasta *share*) é o [WinSCP](https://winscp.net/eng/download.php). Com ele é possível ter um visualização semelhante ao *Windows Explorer* mas permitindo facilmente se logar como *root*. Mas lembre-se de ter muito cuidado ao mexer nos arquivos com esse nível de acesso, pois você pode fazer besteira...
+
 Referências:  
 [Quitting EmulationStation via SSH](https://www.reddit.com/r/RetroPie/comments/4klpw7/quitting_emulationstation_via_ssh/)  
 [Root access on terminal](https://github.com/recalbox/recalbox-os/wiki/Root-access-on-terminal-(EN))  
