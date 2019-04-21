@@ -23,11 +23,14 @@ Há também um outro comando específico que pode ser usado, que é o ```/etc/in
 
 Outro software bastante interessante para se conectar e executar comandos e também copiar arquivos (alguns arquivos do Recalbox possuem segurança e não ficam na pasta *share*) é o [WinSCP](https://winscp.net/eng/download.php). Com ele é possível ter um visualização semelhante ao *Windows Explorer* mas permitindo facilmente se logar como *root*. Mas lembre-se de ter muito cuidado ao mexer nos arquivos com esse nível de acesso, pois você pode fazer besteira...
 
+Caso você queira algo ainda mais simples e menos técnico, você pode usar o *Gamelist Editor*. Ele é uma aplicação que roda no Windows, mas que permite que você aponte diretamente a pasta do Recalbox onde fica suas ROMs, que por padrão é ```\\recalbox\share\roms```. Nesse aplicativo você pode fazer scraper (buscar informações do jogo na internet) ou editar manualmente e salvar.
+
 Referências:  
 [Quitting EmulationStation via SSH](https://www.reddit.com/r/RetroPie/comments/4klpw7/quitting_emulationstation_via_ssh/)  
 [Root access on terminal](https://github.com/recalbox/recalbox-os/wiki/Root-access-on-terminal-(EN))  
 [Gamelist can't retain custom file](https://batocera-linux.xorhub.com/forum/d/1790-gamelist-xml-cant-retain-custom-file/20)  
 [SSH files & Commands](https://github.com/recalbox/recalbox-os/wiki/SSH-Files-&-Commands)  
+[Gamelist Editor](https://github.com/NeeeeB/GameList_Editor)  
 
 
 
