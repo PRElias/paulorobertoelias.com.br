@@ -68,3 +68,13 @@ Sistema para controle de coleções de jogos e futuramente livros e filmes. Cont
 Instalador EmulationStation para Windows em Powershell script. O projeto foi idealizado e desenvolvido por um australiano chamado [Chris Franco](href="https://github.com/Francommit) e que fazia exatamente o que eu procurava. Inclui algumas novas funcionalidades, como integração com o OneDrive e novos emuladores, além da automatização do processo de scraping e passamos a trabalhar juntos no projeto, o que foi muito gratificante.
 
 [Landing Page](https://prelias.github.io/win10_emulation_station/)
+
+## Business Analysis Content Repository
+
+![image](../img/business-analysis-logo.jpg){: .align-center  width="250px"}
+
+Neste projeto, de tecnologia Jekyll, a intenção é compilar informações de diversas fontes e ser um hub de acesso rápido a tudo que envolva o mundo da engenharia de software, mais especificamente, nas rotinas de Product Owners, Scrum Masters, Analistas, etc.
+
+[Visitar](https://prelias.github.io/businessanalysis/)
+[Repositório no GitHub](https://github.com/PRElias/businessanalysis)
+
