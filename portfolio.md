@@ -75,6 +75,6 @@ Instalador EmulationStation para Windows em Powershell script. O projeto foi ide
 
 Neste projeto, de tecnologia Jekyll, a intenção é compilar informações de diversas fontes e ser um hub de acesso rápido a tudo que envolva o mundo da engenharia de software, mais especificamente, nas rotinas de Product Owners, Scrum Masters, Analistas, etc.
 
-[Visitar](https://prelias.github.io/businessanalysis/)
+[Visitar](https://prelias.github.io/businessanalysis/)  
 [Repositório no GitHub](https://github.com/PRElias/businessanalysis)
 
