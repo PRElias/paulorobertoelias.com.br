@@ -3,8 +3,8 @@ layout: post
 title: Um presente de aniversário internacional
 use-site-title: true
 image: /img/Daniel_Suarez_DeltaV.png
-bigimg: /img/Daniel_Suarez_DeltaV.jpg
-share-img: /img/Daniel_Suarez_DeltaV.jpg
+bigimg: /img/Daniel_Suarez_DeltaV.png
+share-img: /img/deltav-01.jpg
 tags: [pessoal]
 published: true
 ---
