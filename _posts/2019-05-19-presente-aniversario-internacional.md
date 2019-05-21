@@ -15,9 +15,13 @@ Eu comecei a acompanhá-lo depois de ler um de seus livros, chamado [Daemon](htt
 
 ![image](../img/deltav-01.jpg){: .align-center}
 
+> Eu e meus 2 livros físicos do autor, tenho também [Freedom](https://www.amazon.com.br/dp/B004IPQEAS/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1) em sua versão ebook
+
 Foi então que vi que seu mais novo livro, Delta-V (ainda sem versão em Português), seria lançado justamente no dia do meu aniversário! Que foi no último dia 23 de abril. Como quem não quer nada, eu simplesmente o pedi de presente, confiante que ele seria seduzido pela coincidência e para minha supresa, ele muito gentilmente me enviou uma cópia!
 
 ![image](../img/deltav-02.jpg){: .align-center}
+
+> Com direito à dedicatória, claro
 
 Infelizmente, os Correios brasileiros, como todos nós aqui neste país sabemos, não funciona muito bem. Então, mesmo ele me enviando bem a tempo de eu receber justo no dia meu aniversário, não foi possível, pois o livro ficou parado na alfândega. Mas não tem problema nenhum, pois isso não diminui a minha felicidade com essa história toda que eu jamais esquecerei!
 
