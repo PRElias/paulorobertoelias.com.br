@@ -3,8 +3,8 @@ layout: post
 title: Google Analytics - Filtrando spam e próprios hits
 use-site-title: true
 image: /img/google-analytics.png
-bigimg: /img/google-analytics.jpg
-share-img: /img/google-analytics.jpg
+bigimg: /img/google-analytics.png
+share-img: /img/google-analytics.png
 tags: [dicas]
 published: true
 ---
