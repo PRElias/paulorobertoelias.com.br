@@ -44,7 +44,9 @@ Além do blog e desse longo relato auto-biográfico, o site também conta com to
 
 ## Minhas paixões
 
-Como já disse, computadores e videogames são, não apenas uma paixão, mas uma parte muito importante de minha vida e moldou toda ela. Tenho uma coleção respeitável de jogos até hoje e não acho que eu vá mudar de ideia tão cedo, apesar da falta de espaço e tempo que, como qualquer pessoa nos seus 30 e poucos, também enfrento. Se você quiser conhecer minha coleção de jogos, basta você clicar [aqui](https://prelias.github.io/mycollections-cli/). Abaixo também dá para acompanhar os jogos que estou jogando no momento, através de um gamercard do serviço Expophase, que é simplesmente fantástico e gratuito.
+Como já disse, computadores e videogames são, não apenas uma paixão, mas uma parte muito importante de minha vida e moldou toda ela. Tenho uma coleção respeitável de jogos até hoje e não acho que eu vá mudar de ideia tão cedo, apesar da falta de espaço e tempo que, como qualquer pessoa nos seus 30 e poucos, também enfrento. Se você quiser conhecer minha coleção de jogos, basta você clicar [aqui](https://prelias.github.io/mycollections-cli/). 
+
+Abaixo também dá para acompanhar os jogos que estou jogando no momento, através de um gamercard do serviço Exophase, que é simplesmente fantástico e gratuito.
 
 <a href="https://www.exophase.com/user/ppuspfc/"><img src="https://card.exophase.com/2/0/6634.png?1561488966" class="align-center"></a>
 
