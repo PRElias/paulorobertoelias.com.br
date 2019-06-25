@@ -28,7 +28,9 @@ Sou apaixonado por tecnologia desde muito criança. Lembro até hoje os primeiro
 
 E esse amor seguiu assim também na minha vida adulta. Minha mãe me conseguiu um emprego numa loja de informática e eu pude aprender demais com meu colegas a arte da montagem, manutenção, formatações e detalhes do Windows. Embora eu não tenha feito uma faculdade relacionada a tecnologia, por diversos fatores (entre eles o financeiro) eu ainda sonhava em voltar a trabalhar e ter contato com tecnologia por toda minha carreira. Foi então que fui trabalhar em São Paulo na área de infraestrutura de uma grande empresa, logo passando a divisão de produtos e não saí mais da área de projetos.
 
-Alguns relatos da minha história foram planejados para serem contados em formatos de posts, embora até hoje eu só tenha escrito um, que você pode conferir [aqui](https://prelias.github.io/paulorobertoelias.com.br/2017-08-31-experiencia-na-minha-carreira-e-curriculo/).
+Alguns relatos da minha história foram planejados para serem contados em formatos de posts, embora até hoje eu só tenha escrito um, que você pode conferir [aqui](https://prelias.github.io/paulorobertoelias.com.br/2017-08-31-experiencia-na-minha-carreira-e-curriculo/). Abaixo também dá para acompanhar os jogos que estou jogando no momento, através de um gamercard do serviço Expophase, que é simplesmente fantástico e gratuito.
+
+<a href="https://www.exophase.com/user/ppuspfc/"><img src="https://card.exophase.com/2/0/6634.png?1561488966"></a>{: .align-center}
 
 ## O site
 
