@@ -28,7 +28,7 @@ Sou apaixonado por tecnologia desde muito criança. Lembro até hoje os primeiro
 
 E esse amor seguiu assim também na minha vida adulta. Minha mãe me conseguiu um emprego numa loja de informática e eu pude aprender demais com meu colegas a arte da montagem, manutenção, formatações e detalhes do Windows. Embora eu não tenha feito uma faculdade relacionada a tecnologia, por diversos fatores (entre eles o financeiro) eu ainda sonhava em voltar a trabalhar e ter contato com tecnologia por toda minha carreira. Foi então que fui trabalhar em São Paulo na área de infraestrutura de uma grande empresa, logo passando a divisão de produtos e não saí mais da área de projetos.
 
-Alguns relatos da minha história foram planejados para serem contados em formatos de posts, embora até hoje eu só tenha escrito um, que você pode conferir [aqui](https://prelias.github.io/paulorobertoelias.com.br/2017-08-31-experiencia-na-minha-carreira-e-curriculo/).
+Alguns relatos da minha história foram planejados para serem contados em formatos de posts, embora até hoje eu só tenha escrito um, que você pode conferir [aqui](https://prelias.github.io/paulorobertoelias.com.br/2017-08-31-experiencia-na-minha-carreira-e-curriculo/). 
 
 ## O site
 
@@ -44,9 +44,13 @@ Além do blog e desse longo relato auto-biográfico, o site também conta com to
 
 ## Minhas paixões
 
-Como já disse, computadores e videogames são, não apenas uma paixão, mas uma parte muito importante de minha vida e moldou toda ela. Tenho uma coleção respeitável de jogos até hoje e não acho que eu vá mudar de ideia tão cedo, apesar da falta de espaço e tempo que, como qualquer pessoa nos seus 30 e poucos, também enfrento. Se você quiser conhecer minha coleção de jogos, basta você clicar [aqui](https://prelias.github.io/mycollections-cli/).
+Como já disse, computadores e videogames são, não apenas uma paixão, mas uma parte muito importante de minha vida e moldou toda ela. Tenho uma coleção respeitável de jogos até hoje e não acho que eu vá mudar de ideia tão cedo, apesar da falta de espaço e tempo que, como qualquer pessoa nos seus 30 e poucos, também enfrento. Se você quiser conhecer minha coleção de jogos, basta você clicar [aqui](https://prelias.github.io/mycollections-cli/). 
 
-Hoje tenho também meus "novos" amores. Além obviamente da minha família, principalmente meus sobrinhos maravilhosos, minha amada esposa e nossa cachorrinha são a alegria da minha existência.
+Abaixo também dá para acompanhar os jogos que estou jogando no momento, através de um gamercard do serviço Exophase, que é simplesmente fantástico e gratuito.
+
+<a href="https://www.exophase.com/user/ppuspfc/"><img src="https://card.exophase.com/2/0/6634.png?1561488966" class="align-center"></a>
+
+Hoje tenho também meus "novos" amores. Além obviamente da minha família, principalmente meus sobrinhos maravilhosos, minha amada esposa e nossa cachorrinha são a alegria da minha existência. Bem como meu filho Henrique que deve chegar lá por volta de setembro!
 
 ![image](../img/thais_malu.jpg){: .align-center}
 
