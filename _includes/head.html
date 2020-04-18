@@ -162,6 +162,13 @@
             console.log('Service worker has been registered for scope:' + reg.scope);
           });
         });
+        var worker = new Worker('/pwabuilder-sw.js');
+
+        worker.addEventListener('message', function (e) {
+          console.log('Worker said: ', e.data);
+        }, false);
+
+        worker.postMessage('Worker doing work!');
       }
     } else {
       console.log("Navegador não aceita serviceWorker");

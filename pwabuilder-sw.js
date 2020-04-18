@@ -1,18 +1,22 @@
 //This is the "Offline page" service worker
 
-console.log('Hello from service-worker.js');
+//console.log('Hello from service-worker.js');
 
-//importScripts('https://storage.googleapis.com/workbox-cdn/releases/5.1.2/workbox-sw.js');
+importScripts('https://storage.googleapis.com/workbox-cdn/releases/5.1.2/workbox-sw.js');
+
+self.addEventListener('message', function(e) {
+  self.postMessage(e.data);
+}, false);
 
 // proper initialization
-if( 'function' === typeof importScripts) {
-  importScripts('https://storage.googleapis.com/workbox-cdn/releases/5.1.2/workbox-sw.js');
-  addEventListener('message', onMessage);
+// if( 'function' === typeof importScripts) {
+//   importScripts('https://storage.googleapis.com/workbox-cdn/releases/5.1.2/workbox-sw.js');
+//   addEventListener('message', onMessage);
 
-  function onMessage(e) { 
-    // do some work here 
-  }    
-}
+//   function onMessage(e) { 
+//     // do some work here 
+//   }    
+// }
 
 if (workbox) {
     console.log(`Yay! Workbox is loaded 🎉`);
