@@ -146,7 +146,7 @@
 
   <!-- PWA -->
   <script src="{{ site.baseurl }}/js/manup.js"></script>
-  <script src="./pwabuilder-sw.js"></script>
+  <script src="/pwabuilder-sw.js"></script>
 
   <script>
     if ('serviceWorker' in navigator) {
@@ -156,7 +156,7 @@
       } else {
         //Register the ServiceWorker
         window.addEventListener('load', function () {
-          navigator.serviceWorker.register('./pwabuilder-sw.js', {
+          navigator.serviceWorker.register('/pwabuilder-sw.js', {
             scope: './'
           }).then(function (reg) {
             console.log('Service worker has been registered for scope:' + reg.scope);
