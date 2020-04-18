@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Home Office: fazendo vídeos com a tela do PC + webcam
+title: Home Office - fazendo vídeos com a tela do PC + webcam
 use-site-title: true
 image: /img/homeoffice.jpg
 bigimg: /img/homeoffice.jpg
@@ -32,7 +32,7 @@ Assim que terminar a instalação, se você não desmarcou a opção, o software
 
 E pronto, o software já está instalado e com as configurações básicas. Para a sequência da explicação, eu achei melhor gravar um vídeo, que você pode assistir aqui:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/l7tV7v71k-I" frameborder="0" allowfullscreen class="align-center"></iframe>
+<iframe width="560" height="315" src="https://youtu.be/VlI4teTYvpk" frameborder="0" allowfullscreen class="align-center"></iframe>
 
 Como você pode ver no vídeo, usar o software é bem fácil. Depois de gravado, você ainda precisa fazer o upload do seu vídeo, seha para o Youtube ou qualquer outro sistema ou site que você utilize.
 
