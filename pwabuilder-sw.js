@@ -2,7 +2,17 @@
 
 console.log('Hello from service-worker.js');
 
-importScripts('https://storage.googleapis.com/workbox-cdn/releases/5.1.2/workbox-sw.js');
+//importScripts('https://storage.googleapis.com/workbox-cdn/releases/5.1.2/workbox-sw.js');
+
+// proper initialization
+if( 'function' === typeof importScripts) {
+  importScripts('https://storage.googleapis.com/workbox-cdn/releases/5.1.2/workbox-sw.js');
+  addEventListener('message', onMessage);
+
+  function onMessage(e) { 
+    // do some work here 
+  }    
+}
 
 if (workbox) {
     console.log(`Yay! Workbox is loaded 🎉`);
@@ -22,27 +32,38 @@ workbox.routing.registerRoute(
 
 //Install stage sets up the offline page in the cache and opens a new cache
 self.addEventListener('install', function(event) {
-  //var offlinePage = new Request('offline.html');
+  var indexPage = new Request('https://paulorobertoelias.com.br/');
   event.waitUntil(
-    fetch(offlinePage).then(function(response) {
+    fetch(indexPage).then(function(response) {
       return caches.open('pwa-offline').then(function(cache) {
-        console.log('[PWA Builder] Cached offline page during Install'+ response.url);
-        return cache.put(offlinePage, response);
+        console.log('[PWA Builder] Cached files during install'+ response.url);
+        return cache.put(indexPage, response);
       });
   }));
 });
 
-//If any fetch fails, it will show the offline page.
-//Maybe this should be limited to HTML documents?
+self.addEventListener('load', function (event) {
+    event.waitUntil(
+        caches.open('pwa-offline').then(function (cache) {
+            return cache.addAll([
+                '/Cliente/GetClientes',
+                '/NotaFiscal/GetNotasFiscais'
+            ]);
+        })
+    );
+});
+
 self.addEventListener('fetch', function(event) {
   event.respondWith(
-    fetch(event.request).catch(function(error) {
-      console.error( '[PWA Builder] Network request Failed. Error: ' + error );
-      return caches.open('pwa-offline').then(function(cache) {
-        return cache.match('pwa-offline');
+    caches.open('pwa-offline').then(function(cache) {
+      return cache.match(event.request).then(function (response) {
+        return response || fetch(event.request).then(function(response) {
+          cache.put(event.request, response.clone());
+          return response;
+        });
       });
-    }
-  ));
+    })
+  );
 });
 
 //This is a event that can be fired from your page to tell the SW to update the offline page
