@@ -32,7 +32,7 @@ Assim que terminar a instalação, se você não desmarcou a opção, o software
 
 E pronto, o software já está instalado e com as configurações básicas. Para a sequência da explicação, eu achei melhor gravar um vídeo, que você pode assistir aqui:
 
-<iframe width="560" height="315" src="https://youtu.be/VlI4teTYvpk" frameborder="0" allowfullscreen class="align-center"></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/VlI4teTYvpk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Como você pode ver no vídeo, usar o software é bem fácil. Depois de gravado, você ainda precisa fazer o upload do seu vídeo, seha para o Youtube ou qualquer outro sistema ou site que você utilize.
 
