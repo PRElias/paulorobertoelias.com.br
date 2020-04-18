@@ -32,7 +32,7 @@ Assim que terminar a instalação, se você não desmarcou a opção, o software
 
 E pronto, o software já está instalado e com as configurações básicas. Para a sequência da explicação, eu achei melhor gravar um vídeo, que você pode assistir aqui:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/VlI4teTYvpk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/VlI4teTYvpk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="align-center"></iframe>
 
 Como você pode ver no vídeo, usar o software é bem fácil. Depois de gravado, você ainda precisa fazer o upload do seu vídeo, seha para o Youtube ou qualquer outro sistema ou site que você utilize.
 
@@ -46,7 +46,9 @@ No Youtube, é só você clicar no ícone de + próximo ao seu usuário, no cant
 
 Depois de terminado o upload, seria interessante você revisar as configurações do vídeo, principalmente a opção **Visibilidade**. Caso queira que ele não apareça no seu canal e apenas as pessoas com o link possam vê-lo, basta deixar essa opção como **Não listado**. Caso você opte por deixar público, ele obviamente ficará totalmente disponível e como privado, apenas o seu usuário poderá acessá-lo.
 
-Mesmo antes do final do processo de upload, que pode demorar bastante, já é possível copiar o endereço que o vídeo será disponibilizado, clicando no mesmo na janela vídeos do canal. E é isso! Agora é só compartilhar o vídeo. Como você provavelmente está no PC, pode achar isso complicado caso não use o Whatsapp Web, mas é muito fácil, basta clicar [aqui](https://web.whatsapp.com) e no app do celular ir até a opção **Whatsapp Web** e apontar a câmera do seu celular para o QR Code na tela do seu PC.
+Mesmo antes do final do processo de upload, que pode demorar bastante, já é possível copiar o endereço que o vídeo será disponibilizado, clicando no mesmo na janela vídeos do canal. E é isso! Agora é só compartilhar o vídeo. 
+
+Como você provavelmente está no PC, pode achar isso complicado caso não use o Whatsapp Web, mas é muito fácil, basta clicar [aqui](https://web.whatsapp.com) e no app do celular ir até a opção **Whatsapp Web** e apontar a câmera do seu celular para o QR Code na tela do seu PC.
 
 O software aqui apresentado, o OBS, também pode ser usado para transmissões ao vivo para o Youtube, mas isso eu explico num próximo post.
 
