@@ -40,7 +40,7 @@ self.addEventListener('install', function(event) {
   event.waitUntil(
     fetch(indexPage).then(function(response) {
       return caches.open('pwa-offline').then(function(cache) {
-        console.log('[PWA Builder] Cached files during install'+ response.url);
+        console.log('[PWA Builder] Cached files during install '+ response.url);
         return cache.put(indexPage, response);
       });
   }));
@@ -50,8 +50,10 @@ self.addEventListener('load', function (event) {
     event.waitUntil(
         caches.open('pwa-offline').then(function (cache) {
             return cache.addAll([
-                '/Cliente/GetClientes',
-                '/NotaFiscal/GetNotasFiscais'
+                'https://www.youtube.com/s/player/f676c671/player_ias.vflset/pt_BR/base.js',
+                'https://paulorobertoelias.com.br/img/avatar-icon.png',
+                'https://connect.facebook.net/en_US/sdk.js?hash=a6867fd537e6b78f3cffa02884775beb&ua=modern_es6',
+                'https://c.disquscdn.com/next/embed/lounge.bundle.e956ea67a0fdae8d09ae64734b639915.js'
             ]);
         })
     );
