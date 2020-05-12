@@ -34,7 +34,7 @@ E pronto, o software já está instalado e com as configurações básicas. Para
 
 <iframe src="https://www.youtube.com/embed/VlI4teTYvpk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="align-center"></iframe>
 
-Como você pode ver no vídeo, usar o software é bem fácil. Depois de gravado, você ainda precisa fazer o upload do seu vídeo, seha para o Youtube ou qualquer outro sistema ou site que você utilize.
+Como você pode ver no vídeo, usar o software é bem fácil. Depois de gravado, você ainda precisa fazer o upload do seu vídeo, seja para o Youtube ou qualquer outro sistema ou site que você utilize.
 
 ## Fazendo o upload
 
