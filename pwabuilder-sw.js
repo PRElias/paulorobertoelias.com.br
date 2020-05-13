@@ -4,9 +4,9 @@
 
 importScripts('https://storage.googleapis.com/workbox-cdn/releases/5.1.2/workbox-sw.js');
 
-self.addEventListener('message', function(e) {
-  self.postMessage(e.data);
-}, false);
+// self.addEventListener('message', function(e) {
+//   self.postMessage(e.data);
+// }, false);
 
 // proper initialization
 // if( 'function' === typeof importScripts) {
