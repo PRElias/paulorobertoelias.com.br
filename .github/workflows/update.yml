@@ -1,4 +1,4 @@
-name: Jekyll site CI
+name: Update environment
 
 on:
   push:
