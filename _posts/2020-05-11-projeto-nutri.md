@@ -17,11 +17,11 @@ Muitos profissionais são liberais, ou estão trabalhando em home office sem ace
 
 Sendo assim, o sistema foi pensado para ser um pequeno banco de dados de informações, que gera documentos assinados e com logo, prontos para impressão ou compartilhamento em PDF. Gerando assim, menos repetição de digitação, cálculos automáticos e evita necessidade de escritas à mão.
 
-![gif](https://github.com/PRElias/images-gifs-readme/raw/master/nutri-funcionalidades.gif?raw=true)
 > Pequeno exemplo do funcionamento da aplicação
+![gif](https://github.com/PRElias/images-gifs-readme/raw/master/nutri-funcionalidades.gif?raw=true)
 
-![gif](https://github.com/PRElias/images-gifs-readme/raw/master/nutri-assinatura.gif?raw=true)
 > É possível usar o seu celular para gravar uma assinatura
+![gif](https://github.com/PRElias/images-gifs-readme/raw/master/nutri-assinatura.gif?raw=true)
 
 O sistema ainda não está 100% completo e pode ser expandido conforme pessoas interessadas possam ir surgindo e, como disse acima, penso até em aproveitar a ideia e até a parte principal do código, para fazer outros parecidos, caso surjam áreas com interesse nas funcionalidades (por exemplo, trocando os campos).
 
