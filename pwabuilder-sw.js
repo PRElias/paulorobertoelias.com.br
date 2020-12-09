@@ -1,34 +1,82 @@
 //This is the "Offline page" service worker
 
+//console.log('Hello from service-worker.js');
+
+importScripts('https://storage.googleapis.com/workbox-cdn/releases/5.1.2/workbox-sw.js');
+
+// self.addEventListener('message', function(e) {
+//   self.postMessage(e.data);
+// }, false);
+
+// proper initialization
+// if( 'function' === typeof importScripts) {
+//   importScripts('https://storage.googleapis.com/workbox-cdn/releases/5.1.2/workbox-sw.js');
+//   addEventListener('message', onMessage);
+
+//   function onMessage(e) { 
+//     // do some work here 
+//   }    
+// }
+
+if (workbox) {
+    console.log(`Yay! Workbox is loaded 🎉`);
+} else {
+    console.log(`Boo! Workbox didn't load 😬`);
+}
+
+workbox.routing.registerRoute(
+    /.*\.(?:png|jpg|jpeg|svg|gif|js|css|html|woff2|json|ico)/g,
+    new workbox.strategies.CacheFirst({
+        cacheName: "pwa-offline",
+        cacheableResponse: {
+            statuses: [0, 200]
+        }
+    })
+);
+
 //Install stage sets up the offline page in the cache and opens a new cache
 self.addEventListener('install', function(event) {
-  var offlinePage = new Request('offline.html');
+  var indexPage = new Request('https://paulorobertoelias.com.br/');
   event.waitUntil(
-    fetch(offlinePage).then(function(response) {
-      return caches.open('pwabuilder-offline').then(function(cache) {
-        console.log('[PWA Builder] Cached offline page during Install'+ response.url);
-        return cache.put(offlinePage, response);
+    fetch(indexPage).then(function(response) {
+      return caches.open('pwa-offline').then(function(cache) {
+        console.log('[PWA Builder] Cached files during install '+ response.url);
+        return cache.put(indexPage, response);
       });
   }));
 });
 
-//If any fetch fails, it will show the offline page.
-//Maybe this should be limited to HTML documents?
+self.addEventListener('load', function (event) {
+    event.waitUntil(
+        caches.open('pwa-offline').then(function (cache) {
+            return cache.addAll([
+                'https://www.youtube.com/s/player/f676c671/player_ias.vflset/pt_BR/base.js',
+                'https://paulorobertoelias.com.br/img/avatar-icon.png',
+                'https://connect.facebook.net/en_US/sdk.js?hash=a6867fd537e6b78f3cffa02884775beb&ua=modern_es6',
+                'https://c.disquscdn.com/next/embed/lounge.bundle.e956ea67a0fdae8d09ae64734b639915.js'
+            ]);
+        })
+    );
+});
+
 self.addEventListener('fetch', function(event) {
   event.respondWith(
-    fetch(event.request).catch(function(error) {
-      console.error( '[PWA Builder] Network request Failed. Serving offline page ' + error );
-      return caches.open('pwabuilder-offline').then(function(cache) {
-        return cache.match('offline.html');
+    caches.open('pwa-offline').then(function(cache) {
+      return cache.match(event.request).then(function (response) {
+        return response || fetch(event.request).then(function(response) {
+          cache.put(event.request, response.clone());
+          return response;
+        });
       });
-    }
-  ));
+    })
+  );
 });
 
 //This is a event that can be fired from your page to tell the SW to update the offline page
-self.addEventListener('refreshOffline', function(response) {
-  return caches.open('pwabuilder-offline').then(function(cache) {
-    console.log('[PWA Builder] Offline page updated from refreshOffline event: '+ response.url);
-    return cache.put(offlinePage, response);
-  });
-});
+// self.addEventListener('refreshOffline', function(response) {
+//   return caches.open('pwabuilder-offline').then(function(cache) {
+//     console.log('[PWA Builder] Offline page updated from refreshOffline event: '+ response.url);
+//     return cache.put(offlinePage, response);
+//   });
+// });
+

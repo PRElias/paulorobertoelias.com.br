@@ -3,13 +3,14 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, viewport-fit=cover">
 
-  <title>{% if page.use-site-title %}{{ site.title }} {{ site.title-separator }} {{ site.description }}{% elsif page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+  <title>{% if page.use-site-title %}{{ site.title }} {{ site.title-separator }}
+    {{ site.description }}{% elsif page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
 
   <!-- PWA Manifest -->
   <link rel="manifest" href="{{ site.baseurl }}/manifest.json" />
 
   <meta name="theme-color" content="#F5F5F5">
-  
+
   <meta name="author" content="{{ site.author.name }}" />
 
   <meta name="google-site-verification" content="154vaA88F4vNy_sOiO75InaDkFK9FPL7LslGllFw9gU" />
@@ -20,49 +21,50 @@
   <meta name="description" content="{{ page.subtitle }}">
   {% endif %}
 
-  <link rel="alternate" type="application/rss+xml" title="{{ site.title }} {{ site.title-separator }} {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
+  <link rel="alternate" type="application/rss+xml"
+    title="{{ site.title }} {{ site.title-separator }} {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
 
   {% include gtag.html %}
   {% include gtm_head.html %}
   {% include google_analytics.html %}
 
   {% if layout.common-ext-css %}
-    {% for css in layout.common-ext-css %}
-      {% include ext-css.html css=css %}
-    {% endfor %}
+  {% for css in layout.common-ext-css %}
+  {% include ext-css.html css=css %}
+  {% endfor %}
   {% endif %}
 
   {% if layout.common-css %}
-    {% for css in layout.common-css %}
-      <link rel="stylesheet" href="{{ css | prepend: site.baseurl | replace: '//', '/' }}" />
-    {% endfor %}
+  {% for css in layout.common-css %}
+  <link rel="stylesheet" href="{{ css | prepend: site.baseurl | replace: '//', '/' }}" />
+  {% endfor %}
   {% endif %}
 
   {% if layout.common-googlefonts %}
-    {% for font in layout.common-googlefonts %}
-      <link rel="stylesheet" href="//fonts.googleapis.com/css?family={{ font }}" />
-    {% endfor %}
+  {% for font in layout.common-googlefonts %}
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family={{ font }}" crossorigin='anonymous' />
+  {% endfor %}
   {% endif %}
 
   {% if page.ext-css %}
-    {% for css in page.ext-css %}
-      {% include ext-css.html css=css %}
-    {% endfor %}
+  {% for css in page.ext-css %}
+  {% include ext-css.html css=css %}
+  {% endfor %}
   {% endif %}
 
   {% if page.css %}
-    {% for css in page.css %}
-      <link rel="stylesheet" href="{{ css | prepend: site.baseurl | replace: '//', '/' }}" />
-    {% endfor %}
+  {% for css in page.css %}
+  <link rel="stylesheet" href="{{ css | prepend: site.baseurl | replace: '//', '/' }}" />
+  {% endfor %}
   {% endif %}
 
   {% if page.googlefonts %}
-    {% for font in page.googlefonts %}
-      <link rel="stylesheet" href="//fonts.googleapis.com/css?family={{ font }}" />
-    {% endfor %}
+  {% for font in page.googlefonts %}
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family={{ font }}" crossorigin='anonymous' />
+  {% endfor %}
   {% endif %}
 
-    <!-- Facebook OpenGraph tags -->
+  <!-- Facebook OpenGraph tags -->
   {% if site.fb_app_id %}
   <meta property="fb:app_id" content="{{ site.fb_app_id }}" />
   {% endif %}
@@ -75,7 +77,7 @@
   <meta property="og:title" content="{{ site.title }}" />
   {% endif %}
 
-   {% if page.meta-description %}
+  {% if page.meta-description %}
   <meta property="og:description" content="{{ page.meta-description }}">
   {% elsif page.subtitle %}
   <meta property="og:description" content="{{ page.subtitle }}">
@@ -98,7 +100,7 @@
   <meta property="og:image" content="{{ site.url }}{{ page.share-img }}" />
   <meta property="og:image:url" content="{{ site.url }}{{ page.share-img }}" />
   <meta property="og:image:secure_url" content="{{ site.url }}{{ page.share-img }}" />
-  <meta property="og:image:type" content="image/png" /> 
+  <meta property="og:image:type" content="image/png" />
   <meta property="og:image:width" content="400" />
   <meta property="og:image:height" content="300" />
   {% elsif site.avatar %}
@@ -141,5 +143,9 @@
   <!-- Staticman -->
   <link rel="stylesheet" href="{{ "/css/staticman.css" | prepend: site.baseurl }}" />
   {% endif %}
+
+  <!-- PWA -->
+  <script src="{{ site.baseurl }}/js/manup.js"></script>
+  <script src="/pwabuilder-sw.js"></script>
 
 </head>
