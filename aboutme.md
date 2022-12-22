@@ -48,7 +48,7 @@ Como já disse, computadores e videogames são, não apenas uma paixão, mas uma
 
 Abaixo também dá para acompanhar os jogos que estou jogando no momento, através de um gamercard do serviço Exophase, que é simplesmente fantástico e gratuito.
 
-<a href="https://www.exophase.com/user/ppuspfc/"><img src="https://card.exophase.com/2/0/6634.png?1561488966" class="align-center"></a>
+<a href="https://www.exophase.com/xbox/user/Pepeu/"><img src="https://card.exophase.com/1/2343674.png" class="align-center">></a>
 
 Hoje tenho também meus "novos" amores. Além obviamente da minha família, principalmente meus sobrinhos maravilhosos, minha amada esposa e nossa cachorrinha são a alegria da minha existência. Bem como meu filho Henrique que deve chegar lá por volta de setembro!
 
