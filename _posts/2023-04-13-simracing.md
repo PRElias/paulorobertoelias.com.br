@@ -16,7 +16,7 @@ Eu sempre gostei de jogos de corrida e é o estilo de jogos que mais possuo com 
 Os jogos que visam replicar situações reais estão tão sofisticados que muitos deles já vem substituindo aquelas famosas e obscuras simulações que as equipes de corrida reais usam para treinamento de pilotos.
 
 > O piloto Lucas di Grassi citando o jogo RFactor 2 como treinamento para corridade de Formula E
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=q2fQtTsdGqc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/v=q2fQtTsdGqc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 > Jogo oficial oferece até campeonatos com premiações reais
 [link](https://traxion.gg/formula-es-esports-competition-returns-gen3-cars-and-e40000-prize-pool/?utm_source=pocket_saves)
@@ -25,8 +25,7 @@ E por que eu decidi escrever esse post e qual a intenção dele? Como sempre dig
 
 ## Do real para o virtual
 
-Muitos pilotos estão vendo na internet uma possibilidade de expandirem sua fama, sua imagem e se divertirem através do SimRacing, como Vitor Genz e Daniel Morad
-https://en.m.wikipedia.org/wiki/Daniel_Morad
+Muitos pilotos estão vendo na internet uma possibilidade de expandirem sua fama, sua imagem e se divertirem através do SimRacing, como Vitor Genz e [Daniel Morad](https://en.m.wikipedia.org/wiki/Daniel_Morad)  
 
 
 ## Volantes
@@ -39,26 +38,22 @@ Mas estes são acessórios caros e por isso mesmo acabam por afastar a entrada d
 
 ### Logitech Driving Force GT
 
-![image](../img/drivingforcegt01){: .align-center}  
-![image](../img/drivingforcegt02){: .align-center}  
+![image](../img/drivingforcegt01.jpg){: .align-center}  
+![image](../img/drivingforcegt02.jpg){: .align-center}  
 
 ### Logitech G27
 
-![image](../img/g27){: .align-center}  
+![image](../img/g27.jpeg){: .align-center}  
 
 ### Thrustmaster T300 RS GT Edition
 
 
 ### Moza R5
 
-![image](../img/moza01){: .align-center}  
-![image](../img/cockpit){: .align-center}  
+![image](../img/moza01,jpeg){: .align-center}  
+![image](../img/cockpit.jpg){: .align-center}  
 
 ## O cenário ideal para óculos de realidade virtual
-
-> Pequeno exemplo do funcionamento da aplicação
-![gif](https://github.com/PRElias/images-gifs-readme/raw/master/nutri-funcionalidades.gif?raw=true)
-
 
 ## Jogos
 
@@ -73,5 +68,5 @@ Mas estes são acessórios caros e por isso mesmo acabam por afastar a entrada d
 ### IRacing
 
 > Corrida divertida online no IRacing em que terminei em 10º
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=oq22ZnxIa84" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/v=oq22ZnxIa84" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
