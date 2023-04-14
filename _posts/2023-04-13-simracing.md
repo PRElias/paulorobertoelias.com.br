@@ -16,7 +16,7 @@ Eu sempre gostei de jogos de corrida e é o estilo de jogos que mais possuo com 
 Os jogos que visam replicar situações reais estão tão sofisticados que muitos deles já vem substituindo aquelas famosas e obscuras simulações que as equipes de corrida reais usam para treinamento de pilotos.
 
 > O piloto Lucas di Grassi citando o jogo RFactor 2 como treinamento para corridade de Formula E
-<iframe width="560" height="315" src="https://www.youtube.com/embed/v=q2fQtTsdGqc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/q2fQtTsdGqc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 > Jogo oficial oferece até campeonatos com premiações reais
 [link](https://traxion.gg/formula-es-esports-competition-returns-gen3-cars-and-e40000-prize-pool/?utm_source=pocket_saves)
@@ -50,7 +50,7 @@ Mas estes são acessórios caros e por isso mesmo acabam por afastar a entrada d
 
 ### Moza R5
 
-![image](../img/moza01,jpeg){: .align-center}  
+![image](../img/moza01.jpeg){: .align-center}  
 ![image](../img/cockpit.jpg){: .align-center}  
 
 ## O cenário ideal para óculos de realidade virtual
@@ -68,5 +68,5 @@ Mas estes são acessórios caros e por isso mesmo acabam por afastar a entrada d
 ### IRacing
 
 > Corrida divertida online no IRacing em que terminei em 10º
-<iframe width="560" height="315" src="https://www.youtube.com/embed/v=oq22ZnxIa84" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/oq22ZnxIa84" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
