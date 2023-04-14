@@ -1,8 +1,23 @@
-FROM jekyll/jekyll
+FROM ruby:latest
 
-COPY --chown=jekyll:jekyll Gemfile .
-COPY --chown=jekyll:jekyll Gemfile.lock .
+# Install dependencies
+RUN apt-get update && \
+    apt-get install -y build-essential zlib1g-dev
 
-RUN bundle install --quiet --clean
+# Install Jekyll
+RUN gem install jekyll bundler
 
-CMD ["jekyll", "serve"]
+# Set the working directory
+WORKDIR /app
+
+# Copy the source code into the container
+COPY . .
+
+# Install dependencies
+RUN bundle install
+
+# Expose the default Jekyll port (4000)
+EXPOSE 4000
+
+# Start Jekyll server
+CMD ["bundle", "exec", "jekyll", "serve", "--host=0.0.0.0"]

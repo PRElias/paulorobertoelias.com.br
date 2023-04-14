@@ -5,11 +5,11 @@
 # Usando com docker
 
 ```
-docker build -t site .
+docker build -t website .
 ```
 
 ```
-docker run --name sitedocker -itd -p 8080:80 -v c:/Worskpace/paulorobertoelias.com.br:/var/www/app site
+docker run -p 80:4000 -it website
 ```
 
 # Links úteis
