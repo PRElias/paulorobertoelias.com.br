@@ -1,12 +1,12 @@
 ---
 layout: post
-title: Minha experiência no SimRacing
+title: Uma Paixão chamada SimRacing
 use-site-title: true
-image: /img/chrome-logo.jpg
-bigimg: /img/chrome-logo.jpg
-share-img: /img/chrome-logo.jpg
+image: /img/simracing.jpg
+bigimg: /img/simracing.jpg
+share-img: /img/simracing.jpg
 tags: [dicas]
-published: false
+published: true
 ---
 
 Sim, SimRacing é nada mais nada menos que um videogame de corrida de carros (ou motos, mas normalmente elas não fazem parte desse universo). Entretanto há sim uma pegada diferente, um foco mais sério. Os jogos de automóveis são tantos e variados que possuem classificações. Geralmente dividem-se entre arcades (que possuem pouco compromisso com a realidade, leis da física e afins) ou simuladores e mesmo entre essas categorias, ainda temos sub grupos como drift, rally e até mesmo jogos com físicas reais mas que simulam cenários como transportadoras ou até passeios.
