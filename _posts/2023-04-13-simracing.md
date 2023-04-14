@@ -2,9 +2,9 @@
 layout: post
 title: Uma Paixão chamada SimRacing
 use-site-title: true
-image: /img/simracing.jpg
-bigimg: /img/simracing.jpg
-share-img: /img/simracing.jpg
+image: /img/simracing.jpeg
+bigimg: /img/simracing.jpeg
+share-img: /img/simracing.jpeg
 tags: [dicas]
 published: true
 ---
@@ -38,15 +38,20 @@ Mas estes são acessórios caros e por isso mesmo acabam por afastar a entrada d
 
 ### Logitech Driving Force GT
 
+Esse foi meu primeiro volante e nada se compara a primeira experência com algo desse tipo. O impacto de ir de um joystick para um volante é muito considerável e apesar dele ser de plástico e ter bem pouca força, já me permitiu sentir uma diferença enorme.
+
 ![image](../img/drivingforcegt01.jpg){: .align-center}  
 ![image](../img/drivingforcegt02.jpg){: .align-center}  
 
 ### Logitech G27
 
+O Logitech G27 talvez seja o maior clássico da história dos volantes para videogame. Com sua história começando no G25 e chegando aos novos modelos da linha G29 e suas variações, trata-se de um volante muito bom e com um custo benefício imbatível.
+
 ![image](../img/g27.jpeg){: .align-center}  
 
 ### Thrustmaster T300 RS GT Edition
 
+Fiz o upgrade do G27 para este volante mais pensando na compatibilidade com o Playstation 5 e minha vontade de jogar Gran Turismo 7. Nunca fui realmente convencido de que o upgrade valeu a pena, apesar de eu ainda manter esse volante justamente por isso, já que meu novo Moza não é compatível com videogames (talvez com um dispositivo como o [Raslution 2](https://www.brookaccessory.com/detail/72705806/), que eu também possuo, venha a ser compatível no futuro).
 
 ### Moza R5
 
@@ -55,11 +60,19 @@ Mas estes são acessórios caros e por isso mesmo acabam por afastar a entrada d
 
 ## O cenário ideal para óculos de realidade virtual
 
+Simplesmente nenhuma experiência de realidade virtual se compara ao uso em um cockpit simulado de um carro de corrida. Muito pelo fato do primeiro plano ser parado em relação ao exterior da cabine e o movimento ser controlado por pedais e não direcionais, fato que evita quase por completo também o enjôo que é característico desses dispositivos, mas eu digo pela minha própria experiência com meu HP Reverb G2, onde não consigo jogar ou gostar de nenhum software de VR enquanto não consigo mais não usá-lo para correr.
+
 ## Jogos
 
 ### Gran Turismo 7
 
 ### Assetto Corsa
+
+Assetto Corsa já é um jogo antigo, quase um clássico. Tanto que já temos anunciado para o ano que vem, Assetto Corsa 2. Mas esse jogo não deve morrer tão cedo, nem mesmo com a chegada de um sucessor.
+
+Devido ao suporte a mods, o suporte e as novidades nesse jogo são simplesmente infinitas, chegando a extremos como inclusão de chuva realista por desenvolvedores independentes!
+
+São milhares os sites e grupos de Facebook com discussões e mods para baixar e jogar grátis (há alguns pagos também) e muito é devido À existência de um projeto chamado [Content Manager](https://acstuff.ru/app/). Ele é uma interface de configuração do jogo que permite instalar os mods muito facilmente, assim como diversas configurações do jogo e iniciar tudo muito rapidamente sem nem precisar carregar o menu do game.
 
 ### Assetto Corza Competizione
 
