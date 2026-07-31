@@ -83,18 +83,19 @@ social-network-links:
 #  google-plus: +DeanAttali
   linkedin: paulo-roberto-elias
 #  xing: yourname
-  stackoverflow: "5857228/paulo-roberto-elias"
+# stackoverflow: "5857228/paulo-roberto-elias"
 #  snapchat: deanat78
   instagram: paulorobertoelias.com.br
   youtube: c/PauloRobertoElias
-  spotify: 12147522220?si=MlL7mRdURhesGMj1mQ_4fg
-  telephone: +5519981418586
+# spotify: 12147522220?si=MlL7mRdURhesGMj1mQ_4fg
+# telephone: +5519981418586
   steam: ppuspfc
 #  twitch: yourname
 #  yelp: yourname
-  whatsapp: 5519981418586
-  medium: ppuspfc
-  
+# whatsapp: 5519981418586
+# medium: ppuspfc
+# skype: paulo_roberto_elias?chat
+
 # Select which share links to show in posts
 share-links-active:
   twitter: true
