@@ -1,14 +1,20 @@
-const CACHE_VERSION = 'pwa-v3';
-const STATIC_CACHE = `${CACHE_VERSION}-static`;
+const CACHE_VERSION = 'paulo-pwa-v5';
+const APP_SHELL_CACHE = `${CACHE_VERSION}-app-shell`;
+const OFFLINE_PAGE = '/offline.html';
 const APP_SHELL = [
-  'https://paulorobertoelias.com.br/',
-  'https://paulorobertoelias.com.br/img/avatar-icon.png'
+  '/',
+  OFFLINE_PAGE,
+  '/manifest.json',
+  '/img/avatar-icon.png',
+  '/css/bootstrap.min.css',
+  '/css/main.css',
+  '/js/manup.js'
 ];
 
 self.addEventListener('install', function (event) {
   self.skipWaiting();
   event.waitUntil(
-    caches.open(STATIC_CACHE).then(function (cache) {
+    caches.open(APP_SHELL_CACHE).then(function (cache) {
       return cache.addAll(APP_SHELL);
     })
   );
@@ -21,7 +27,7 @@ self.addEventListener('activate', function (event) {
       return Promise.all(
         keys
           .filter(function (key) {
-            return key.startsWith('pwa-') && key !== STATIC_CACHE;
+            return key.startsWith('paulo-pwa-') && key !== APP_SHELL_CACHE;
           })
           .map(function (key) {
             return caches.delete(key);
@@ -42,7 +48,7 @@ self.addEventListener('fetch', function (event) {
         .then(function (response) {
           if (response && response.ok) {
             const copy = response.clone();
-            caches.open(STATIC_CACHE).then(function (cache) {
+            caches.open(APP_SHELL_CACHE).then(function (cache) {
               cache.put(event.request, copy);
             });
           }
@@ -50,7 +56,7 @@ self.addEventListener('fetch', function (event) {
         })
         .catch(function () {
           return caches.match(event.request).then(function (response) {
-            return response || caches.match('/');
+            return response || caches.match(OFFLINE_PAGE);
           });
         })
     );
@@ -59,23 +65,25 @@ self.addEventListener('fetch', function (event) {
 
   if (
     requestUrl.origin === self.location.origin &&
-    ['image', 'script', 'style', 'font'].includes(event.request.destination)
+    ['style', 'script', 'font', 'image'].includes(event.request.destination)
   ) {
     event.respondWith(
       caches.match(event.request).then(function (cachedResponse) {
-        const fetchPromise = fetch(event.request).then(function (response) {
+        if (cachedResponse) {
+          return cachedResponse;
+        }
+
+        return fetch(event.request).then(function (response) {
           if (response && response.ok) {
             const copy = response.clone();
-            caches.open(STATIC_CACHE).then(function (cache) {
+            caches.open(APP_SHELL_CACHE).then(function (cache) {
               cache.put(event.request, copy);
             });
           }
           return response;
         }).catch(function () {
-          return cachedResponse;
+          return cachedResponse || caches.match(OFFLINE_PAGE);
         });
-
-        return cachedResponse || fetchPromise;
       })
     );
     return;
@@ -83,7 +91,7 @@ self.addEventListener('fetch', function (event) {
 
   event.respondWith(
     fetch(event.request).catch(function () {
-      return caches.match(event.request);
+      return caches.match(event.request) || caches.match(OFFLINE_PAGE);
     })
   );
 });
