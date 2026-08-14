@@ -2,9 +2,9 @@
 layout: post
 title: Economizando espaço em disco nos seus jogos
 use-site-title: true
-image: https://raw.githubusercontent.com/IridiumIO/CompactGUI/master/CompactGUI/assets/Watcher.png
-bigimg: https://raw.githubusercontent.com/IridiumIO/CompactGUI/master/CompactGUI/assets/Watcher.png
-share-img: https://raw.githubusercontent.com/IridiumIO/CompactGUI/master/CompactGUI/assets/Watcher.png
+image: /img/Watcher.png
+bigimg: /img/Watcher.png
+share-img: /img/Watcher.png
 tags: [dicas]
 published: true
 ---
