@@ -15,7 +15,7 @@ Gostei tanto que me vi novamente escrevendo algo no meu site depois de tantos an
 
 Sendo assim, segue o artigo: [I use this free, open-source tool to significantly compress my games on Windows without any performance loss](https://www.xda-developers.com/free-open-source-tool-compress-games-windows-compactgui/). Ele está em inglês e pode ser meio chato encontrar os links nele que levam ao software, então, ainda assim vou resumir.
 
-Trata-se de um projeto opensource que uma GUI para algoritmos de compressão de arquivos usados pelo próprio Windows e você pode baixar em: [CompactGUI](https://github.com/IridiumIO/CompactGUI/releases/tag/v4.0.0-beta.7).
+Trata-se de um projeto opensource de uma GUI para algoritmos de compressão de arquivos usados pelo próprio Windows e você pode baixar em: [CompactGUI](https://github.com/IridiumIO/CompactGUI/releases/tag/v4.0.0-beta.7).
 
 Aliás, eu não baixaria diretamente, mas sim instalaria usando o WinGet, digitando no terminal:
 
