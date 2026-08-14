@@ -1,82 +1,90 @@
-//This is the "Offline page" service worker
+const CACHE_VERSION = 'pwa-v3';
+const STATIC_CACHE = `${CACHE_VERSION}-static`;
+const APP_SHELL = [
+  'https://paulorobertoelias.com.br/',
+  'https://paulorobertoelias.com.br/img/avatar-icon.png'
+];
 
-//console.log('Hello from service-worker.js');
-
-importScripts('https://storage.googleapis.com/workbox-cdn/releases/5.1.2/workbox-sw.js');
-
-// self.addEventListener('message', function(e) {
-//   self.postMessage(e.data);
-// }, false);
-
-// proper initialization
-// if( 'function' === typeof importScripts) {
-//   importScripts('https://storage.googleapis.com/workbox-cdn/releases/5.1.2/workbox-sw.js');
-//   addEventListener('message', onMessage);
-
-//   function onMessage(e) { 
-//     // do some work here 
-//   }    
-// }
-
-if (workbox) {
-    console.log(`Yay! Workbox is loaded 🎉`);
-} else {
-    console.log(`Boo! Workbox didn't load 😬`);
-}
-
-workbox.routing.registerRoute(
-    /.*\.(?:png|jpg|jpeg|svg|gif|js|css|html|woff2|json|ico)/g,
-    new workbox.strategies.CacheFirst({
-        cacheName: "pwa-offline",
-        cacheableResponse: {
-            statuses: [0, 200]
-        }
-    })
-);
-
-//Install stage sets up the offline page in the cache and opens a new cache
-self.addEventListener('install', function(event) {
-  var indexPage = new Request('https://paulorobertoelias.com.br/');
+self.addEventListener('install', function (event) {
+  self.skipWaiting();
   event.waitUntil(
-    fetch(indexPage).then(function(response) {
-      return caches.open('pwa-offline').then(function(cache) {
-        console.log('[PWA Builder] Cached files during install '+ response.url);
-        return cache.put(indexPage, response);
-      });
-  }));
-});
-
-self.addEventListener('load', function (event) {
-    event.waitUntil(
-        caches.open('pwa-offline').then(function (cache) {
-            return cache.addAll([
-                'https://www.youtube.com/s/player/f676c671/player_ias.vflset/pt_BR/base.js',
-                'https://paulorobertoelias.com.br/img/avatar-icon.png',
-                'https://connect.facebook.net/en_US/sdk.js?hash=a6867fd537e6b78f3cffa02884775beb&ua=modern_es6',
-                'https://c.disquscdn.com/next/embed/lounge.bundle.e956ea67a0fdae8d09ae64734b639915.js'
-            ]);
-        })
-    );
-});
-
-self.addEventListener('fetch', function(event) {
-  event.respondWith(
-    caches.open('pwa-offline').then(function(cache) {
-      return cache.match(event.request).then(function (response) {
-        return response || fetch(event.request).then(function(response) {
-          cache.put(event.request, response.clone());
-          return response;
-        });
-      });
+    caches.open(STATIC_CACHE).then(function (cache) {
+      return cache.addAll(APP_SHELL);
     })
   );
 });
 
-//This is a event that can be fired from your page to tell the SW to update the offline page
-self.addEventListener('refreshOffline', function(response) {
-  return caches.open('pwa-offline').then(function(cache) {
-    console.log('[PWA Builder] Offline page updated from refreshOffline event: '+ response.url);
-    return cache.put(offlinePage, response);
-  });
+self.addEventListener('activate', function (event) {
+  self.clients.claim();
+  event.waitUntil(
+    caches.keys().then(function (keys) {
+      return Promise.all(
+        keys
+          .filter(function (key) {
+            return key.startsWith('pwa-') && key !== STATIC_CACHE;
+          })
+          .map(function (key) {
+            return caches.delete(key);
+          })
+      );
+    })
+  );
+});
+
+self.addEventListener('fetch', function (event) {
+  if (event.request.method !== 'GET') return;
+
+  const requestUrl = new URL(event.request.url);
+
+  if (requestUrl.origin === self.location.origin && event.request.mode === 'navigate') {
+    event.respondWith(
+      fetch(event.request)
+        .then(function (response) {
+          if (response && response.ok) {
+            const copy = response.clone();
+            caches.open(STATIC_CACHE).then(function (cache) {
+              cache.put(event.request, copy);
+            });
+          }
+          return response;
+        })
+        .catch(function () {
+          return caches.match(event.request).then(function (response) {
+            return response || caches.match('/');
+          });
+        })
+    );
+    return;
+  }
+
+  if (
+    requestUrl.origin === self.location.origin &&
+    ['image', 'script', 'style', 'font'].includes(event.request.destination)
+  ) {
+    event.respondWith(
+      caches.match(event.request).then(function (cachedResponse) {
+        const fetchPromise = fetch(event.request).then(function (response) {
+          if (response && response.ok) {
+            const copy = response.clone();
+            caches.open(STATIC_CACHE).then(function (cache) {
+              cache.put(event.request, copy);
+            });
+          }
+          return response;
+        }).catch(function () {
+          return cachedResponse;
+        });
+
+        return cachedResponse || fetchPromise;
+      })
+    );
+    return;
+  }
+
+  event.respondWith(
+    fetch(event.request).catch(function () {
+      return caches.match(event.request);
+    })
+  );
 });
 
