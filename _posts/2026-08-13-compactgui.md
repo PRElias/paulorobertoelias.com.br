@@ -6,7 +6,7 @@ image: https://raw.githubusercontent.com/IridiumIO/CompactGUI/master/CompactGUI/
 bigimg: https://raw.githubusercontent.com/IridiumIO/CompactGUI/master/CompactGUI/assets/Watcher.png
 share-img: https://raw.githubusercontent.com/IridiumIO/CompactGUI/master/CompactGUI/assets/Watcher.png
 tags: [dicas]
-published: false
+published: true
 ---
 
 Eu adoro acompanhar a página do X do [XDA Developers](https://x.com/xdadevelopers) e hoje encontrei um artigo muito legal e com uma dica muito útil, ainda mais em tempos de escassez e preços altos de armazenamento.
