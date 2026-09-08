@@ -1,72 +1,169 @@
----
-layout: page
-title: Paulo Roberto Elias
-subtitle: Site pessoal, hub de contatos e blog
-use-site-title: false
----
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Paulo Roberto Elias | Software, projetos e escrita</title>
+  <meta name="description" content="Landing page pessoal de Paulo Roberto Elias: software, projetos, blog e formas de contato.">
+  <meta name="theme-color" content="#071016">
+  <meta property="og:title" content="Paulo Roberto Elias">
+  <meta property="og:description" content="Software, projetos, automacao, dados e escrita tecnica.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://paulorobertoelias.com.br/">
+  <meta property="og:image" content="https://paulorobertoelias.com.br/assets/img/hero-command-center.png">
+  <link rel="preload" as="image" href="assets/img/hero-command-center.png">
+  <link rel="stylesheet" href="assets/css/landing.css">
+</head>
+<body>
+  <canvas class="particle-field" aria-hidden="true"></canvas>
+  <div class="cursor-aura" aria-hidden="true"></div>
 
-<div class="posts-list">
-  {% for post in paginator.posts %}
-  <article class="post-preview">
-    <a href="{{ post.url | prepend: site.baseurl }}">
-	  <h2 class="post-title">{{ post.title }}</h2>
-
-	  {% if post.subtitle %}
-	  <h3 class="post-subtitle">
-	    {{ post.subtitle }}
-	  </h3>
-	  {% endif %}
+  <header class="site-header" data-reveal>
+    <a class="brand" href="#top" aria-label="Paulo Roberto Elias">
+      <img class="brand-photo" src="assets/img/avatar.jpg" alt="" width="42" height="42">
+      <span>Paulo Roberto Elias</span>
     </a>
+    <nav aria-label="Navegacao principal">
+      <a href="#projetos">Projetos</a>
+      <a href="https://blog.paulorobertoelias.com.br/">Blog</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
 
-    <p class="post-meta">
-      Postado em {{ post.date | date: "%d/%m/%Y" }}
-    </p>
-
-    <div class="post-entry-container">
-      {% if post.image %}
-      <div class="post-image">
-        <a href="{{ post.url | prepend: site.baseurl }}">
-          <img src="{{ site.url }}{{ post.image }}">
-        </a>
+  <main id="top">
+    <section class="hero" aria-labelledby="hero-title">
+      <img class="hero-image" src="assets/img/hero-command-center.png" alt="">
+      <div class="hero-shade" aria-hidden="true"></div>
+      <div class="hero-grid" aria-hidden="true"></div>
+      <div class="hero-content" data-reveal>
+        <p class="eyebrow">software • tecnologia • games • sci-fi</p>
+        <h1 id="hero-title">Construindo sistemas, ideias e pequenas pontes entre tecnologia e vida real.</h1>
+        <p class="hero-copy">
+          Sou Paulo Roberto Elias. Reuno aqui meus projetos, experimentos, textos e caminhos para conversar sobre tecnologia aplicada com pragmatismo, curiosidade e um pouco de brilho na tela.
+        </p>
+        <div class="hero-actions" aria-label="Acoes principais">
+          <a class="button primary" href="#projetos">Ver projetos</a>
+          <a class="button primary" href="#contato">Contato</a>
+          <a class="button glass" href="https://blog.paulorobertoelias.com.br/">Abrir blog</a>
+        </div>
       </div>
-      {% endif %}
-      <div class="post-entry">
-        {{ post.excerpt | strip_html | xml_escape | truncatewords: site.excerpt_length }}
-        {% assign excerpt_word_count = post.excerpt | number_of_words %}
-        {% if post.content != post.excerpt or excerpt_word_count > site.excerpt_length %}
-          <a href="{{ post.url | prepend: site.baseurl }}" class="post-read-more">[Leia&nbsp;Mais]</a>
-        {% endif %}
+    </section>
+
+    <section class="section projects-section" id="projetos" aria-labelledby="projects-title">
+      <div class="section-inner">
+        <div class="section-heading" data-reveal>
+          <p class="eyebrow">laboratorio publico</p>
+          <h2 id="projects-title">Projetos e trilhas</h2>
+          <p>Um mapa curto do que vale visitar primeiro: codigo, automacoes, estudos e ferramentas que nascem de problemas reais.</p>
+        </div>
+
+        <div class="project-grid">
+
+          <article class="project-card tilt-card" data-reveal>
+            <div class="card-orbit" aria-hidden="true"></div>
+            <p class="card-kicker">eu</p>
+            <h3>Currículo</h3>
+            <p>Currículo digítal para imprimir e compartilhar.</p>
+            <a href="https://resume.paulorobertoelias.com.br/" aria-label="Abrir Currículo">resume.paulorobertoelias.com.br</a>
+          </article>
+
+          <article class="project-card tilt-card" data-reveal>
+            <div class="card-orbit" aria-hidden="true"></div>
+            <p class="card-kicker">codigo</p>
+            <h3>GitHub</h3>
+            <p>Repositorios, provas de conceito e pequenas ferramentas que documentam meu jeito de resolver problemas.</p>
+            <a href="https://github.com/PRElias" aria-label="Abrir GitHub de Paulo Roberto Elias">github.com/PRElias</a>
+          </article>
+
+          <article class="project-card tilt-card" data-reveal>
+            <div class="card-orbit" aria-hidden="true"></div>
+            <p class="card-kicker">escrita</p>
+            <h3>Blog</h3>
+            <p>Textos sobre desenvolvimento, produtividade, automacao, carreira, jogos, simulacao e tecnologia do cotidiano.</p>
+            <a href="https://blog.paulorobertoelias.com.br/" aria-label="Abrir blog">blog.paulorobertoelias.com.br</a>
+          </article>
+
+          <article class="project-card tilt-card" data-reveal>
+            <div class="card-orbit" aria-hidden="true"></div>
+            <p class="card-kicker">carreira</p>
+            <h3>LinkedIn</h3>
+            <p>Historico profissional, conexoes e conversas sobre engenharia de software, produto e tecnologia.</p>
+            <a href="https://linkedin.com/in/paulo-roberto-elias" aria-label="Abrir LinkedIn">linkedin.com/in/paulo-roberto-elias</a>
+          </article>
+
+          <article class="project-card tilt-card" data-reveal>
+            <div class="card-orbit" aria-hidden="true"></div>
+            <p class="card-kicker">YouTube</p>
+            <h3>YouTube</h3>
+            <p>Videos sobre desenvolvimento, produtividade, automacao, carreira, jogos, simulacao e tecnologia do cotidiano.</p>
+            <a href="https://youtube.com/c/PauloRobertoElias" aria-label="Abrir YouTube">youtube.com/c/PauloRobertoElias</a>
+          </article>
+
+          <article class="project-card tilt-card" data-reveal>
+            <div class="card-orbit" aria-hidden="true"></div>
+            <p class="card-kicker">Instagram</p>
+            <h3>Instagram</h3>
+            <p>Conteudo sobre desenvolvimento, produtividade, automacao, carreira, jogos, simulacao e tecnologia do cotidiano.</p>
+            <a href="https://www.instagram.com/paulorobertoelias/" aria-label="Abrir Instagram">instagram.com/paulorobertoelias</a>
+          </article>
+
+          <article class="project-card tilt-card" data-reveal>
+            <div class="card-orbit" aria-hidden="true"></div>
+            <p class="card-kicker">My Collections</p>
+            <h3>My Collections</h3>
+            <p>Meu projeto e coleção de jogos atualizada.</p>
+            <a href="https://mycollections.paulorobertoelias.com.br/" aria-label="Abrir My Collections">mycollections.paulorobertoelias.com.br</a>
+          </article>
+        </div>
       </div>
-    </div>
+    </section>
 
-    {% if post.tags.size > 0 %}
-    <div class="blog-tags">
-      Categorias:
-      {% if site.link-tags %}
-      {% for tag in post.tags %}
-      <a href="{{ site.baseurl }}/tags#{{- tag -}}">{{- tag -}}</a>
-      {% endfor %}
-      {% else %}
-        {{ post.tags | join: ", " }}
-      {% endif %}
-    </div>
-    {% endif %}
+    <section class="section signal-section" aria-labelledby="signal-title">
+      <div class="section-inner signal-layout">
+        <div class="signal-copy" data-reveal>
+          <p class="eyebrow">o que me move</p>
+          <h2 id="signal-title">Tecnologia boa aparece quando ela reduz atrito.</h2>
+          <p>
+            Gosto de sistemas que organizam bagunca, automatizam repeticao e deixam espaco para pessoas pensarem melhor. Esta landing vira o ponto de partida; o blog fica como arquivo vivo.
+          </p>
+        </div>
+        <div class="signal-panel" data-reveal>
+          <div class="code-window" aria-label="Areas de interesse">
+            <div class="window-dots" aria-hidden="true"><span></span><span></span><span></span></div>
+            <pre><code>focus = [
+  "software sob medida",
+  "integracoes e APIs",
+  "dados que contam historia",
+  "automacao sem teatro",
+  "documentacao que ajuda"
+]</code></pre>
+          </div>
+        </div>
+      </div>
+    </section>
 
-   </article>
-  {% endfor %}
-</div>
+    <section class="section contact-section" id="contato" aria-labelledby="contact-title">
+      <div class="section-inner contact-box" data-reveal>
+        <div>
+          <p class="eyebrow">contato</p>
+          <h2 id="contact-title">Vamos conversar?</h2>
+          <p>Para projetos, ideias, trocas tecnicas ou um cafe remoto bem objetivo.</p>
+        </div>
+        <div class="contact-actions">
+          <a class="button primary" href="mailto:elias.pauloroberto@gmail.com">Enviar email</a>
+          <a class="button glass" href="https://x.com/Paulo__Elias">X</a>
+        </div>
+      </div>
+    </section>
+  </main>
 
-{% if paginator.total_pages > 1 %}
-<ul class="pager main-pager">
-  {% if paginator.previous_page %}
-  <li class="previous">
-    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Últimos posts</a>
-  </li>
-  {% endif %}
-  {% if paginator.next_page %}
-  <li class="next">
-    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Posts antigos &rarr;</a>
-  </li>
-  {% endif %}
-</ul>
-{% endif %}
+  <footer class="site-footer">
+    <span>Paulo Roberto Elias</span>
+    <span>Software, projetos, escrita tecnica, Instagram e YouTube.</span>
+  </footer>
+
+  <script src="assets/js/landing.js"></script>
+</body>
+</html>
+
+
