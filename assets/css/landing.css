@@ -383,15 +383,69 @@ h2 {
 
 .card-orbit {
   position: absolute;
-  right: -42px;
-  top: -42px;
-  width: 150px;
+  right: -22px;
+  top: -22px;
+  width: 126px;
   aspect-ratio: 1;
-  border: 1px solid rgba(70, 215, 220, .32);
-  background:
-    radial-gradient(circle, rgba(70, 215, 220, .2), transparent 62%),
-    conic-gradient(from 90deg, transparent, rgba(241, 199, 91, .68), transparent, rgba(255, 125, 100, .7), transparent);
+  display: grid;
+  place-items: center;
+  color: rgba(246, 251, 255, .88);
+  filter: drop-shadow(0 0 22px rgba(70, 215, 220, .35));
   animation: spin 8s linear infinite;
+}
+
+.card-orbit::before {
+  content: "";
+  position: absolute;
+  inset: 13px;
+  border-radius: 50%;
+  background:
+    radial-gradient(circle, rgba(70, 215, 220, .18), transparent 64%),
+    conic-gradient(from 90deg, transparent, rgba(241, 199, 91, .42), transparent, rgba(255, 125, 100, .46), transparent);
+  opacity: .82;
+}
+
+.card-orbit svg {
+  position: relative;
+  z-index: 1;
+  width: 74px;
+  height: 74px;
+}
+
+.card-orbit path {
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.45;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.brand-github path,
+.brand-linkedin path,
+.brand-youtube path {
+  fill: currentColor;
+  stroke: none;
+}
+
+.brand-github {
+  color: #f6fbff;
+}
+
+.brand-linkedin {
+  color: #5eb6ff;
+}
+
+.brand-youtube {
+  color: #ff5a52;
+}
+
+.brand-instagram {
+  color: #ff7dba;
+}
+
+.brand-blog,
+.brand-collections {
+  color: var(--gold);
 }
 
 .card-kicker {
