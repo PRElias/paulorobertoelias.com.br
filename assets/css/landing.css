@@ -185,7 +185,7 @@ p {
 h1 {
   max-width: 780px;
   margin: 0;
-  font-size: clamp(3rem, 8vw, 7.6rem);
+  font-size: clamp(2.70rem, 7.2vw, 7.0rem);
   line-height: .92;
   letter-spacing: 0;
 }
@@ -615,7 +615,7 @@ pre {
   }
 
   h1 {
-    font-size: clamp(2.55rem, 12vw, 4.2rem);
+    font-size: clamp(2.4rem, 11.2vw, 3.9rem);
   }
 
   .stats-strip,
