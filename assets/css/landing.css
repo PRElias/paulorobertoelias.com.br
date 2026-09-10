@@ -448,6 +448,10 @@ h2 {
   color: var(--gold);
 }
 
+.brand-launcher {
+  color: var(--cyan);
+}
+
 .card-kicker {
   margin: 0 0 70px;
   color: var(--gold);
